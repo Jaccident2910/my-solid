@@ -49,8 +49,8 @@ function Details(props) {
           console.log(`${sub}`)
           console.log(await document.subjects.sparql)
         } */
-        const bindingsStream = await myEngine.queryBindings(await `SELECT DISTINCT ?subject WHERE {
-  ?subject rdf:type <http://www.w3.org/ns/ldp#Container>.
+        const bindingsStream = await myEngine.queryBindings(await `SELECT ?subject ?type WHERE {
+  ?subject rdf:type ?type.
 }`, {
           // Set your profile as query source
           sources: [storageURL],
@@ -59,12 +59,27 @@ function Details(props) {
         })
           console.log("pineapple")
           const bindings = await bindingsStream.toArray();
-          const actualEntries = bindings[0].entries._root.entries[0]
           console.log(bindings)
-          console.log(actualEntries)
-          console.log(actualEntries[1].id)
+          let subjectsList = []
+          for(let entNum = 0; entNum < bindings.length ; entNum++) {
+            const actualEntries = bindings[entNum].entries._root.entries
+            const entryList = []
+            //console.log("mango")
+            //console.log(actualEntries)
+            for (let i = 0 ; i < actualEntries.length ; i ++) {
+            const [queryName, queryVal] = actualEntries[i]
+            //console.log(queryName + ": " + queryVal.id)
+            entryList.push([queryName, queryVal.id])
+            /*console.log(actualEntries)
+            console.log(actualEntries[1].id) */
+            }
+            subjectsList.push(entryList)
+          }
           //console.log(bindings[0].get('s').value);
-          //console.log(bindings[0].get('s').termType);
+          //console.log(bindings[0].get('s').termType);#
+
+
+          console.log(subjectsList)
       })(pod);
 
       
