@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useEffect, useState, useRef, } from 'react';
 import detailsFunc from "./Details"
+import bfs from "./bfs"
 import {
     LoginButton,
     Text,
@@ -85,10 +86,41 @@ function useStorageGetter(webID, storageSetter) {
 
 }
 
-function useFrontierGetter(session, storageLoc, frontierSetter) {
+function useFrontierGetter(session, storageLoc, frontierSetter, nodePathArr) {
   useEffect(() => {
-  detailsFunc(storageLoc, session, frontierSetter)
+  detailsFunc(storageLoc, session, frontierSetter, nodePathArr)
   }, [storageLoc])
+}
+
+function containerCheck(node) {
+  const containerURL = "https://www.w3.org/ns/ldp#Container"
+  const containerURL2 = "http://www.w3.org/ns/ldp#Container"
+  console.log("checking containerness of:")
+  console.log(node)
+  console.log(node.type == containerURL)
+  return(node.type == containerURL || node.type == containerURL2)
+}
+
+
+
+function getNodeVal(searchNode) {
+  return(searchNode.subject)
+}
+
+function useBFS(frontier, storageLoc, session, setFrontier) {
+
+  function nodeExpansion(searchNode) {
+    console.log("Searching on " +searchNode.subject)
+    console.log("phlegm")
+    console.log(searchNode)
+    detailsFunc(getNodeVal(searchNode), session, setFrontier, searchNode.searchPath)
+  }
+
+  useEffect(() => {
+    bfs(frontier, containerCheck, getNodeVal, nodeExpansion, 1000)
+    console.log("meh")
+    console.log(frontier)
+  }, [frontier, storageLoc])
 }
 
 
@@ -102,6 +134,7 @@ const {
 } = useSession();
 const [storageLoc, setStorageLoc] = useState("")
 const [frontier, setFrontier] = useState("")
+
 /*
 useEffect(()=> {
     
@@ -123,10 +156,21 @@ useEffect(()=> {
 // So I have kind of been using useEffect wrong. I should try to build my own custom hooks to handle the profile and the detaisl
 
 useStorageGetter(session.info.webId, setStorageLoc)
-useFrontierGetter(session, storageLoc, setFrontier)
+//setFrontier(frontier => [])
+//useFrontierGetter(session, storageLoc, setFrontier , [])
+useFrontierGetter(session, storageLoc, setFrontier , [])
 
+
+console.log(frontier)
 console.log("wahoo!!")
 console.log(frontier)
+
+// Breadth-first search:
+
+
+
+
+useBFS(frontier, storageLoc, session, setFrontier)
 
 
 return (<div className="mainScreen max-w-4xl flex-1">
