@@ -4,7 +4,7 @@ import { useSession, } from "@inrupt/solid-ui-react";
 
 //detailsFunc takes in a location, an authenticated session, and a setterFunction, and uses the setterFunc 
 // on the list of all children in that location, returning the children and the type.
-export default function detailsFunc(rootURL, session, setterFunc, nodePathArr) {
+export default function detailsFunc(rootURL, session, frontier, setFrontier, nodePathArr) {
   const { PathFactory } = require('ldflex');
   const { default: ComunicaEngine } = require('@ldflex/comunica');
   const { namedNode } = require('@rdfjs/data-model');
@@ -37,7 +37,8 @@ export default function detailsFunc(rootURL, session, setterFunc, nodePathArr) {
     const pod = path.create({ subject: namedNode(rootURL) });
 
     (async document => {
-      console.log("doing stuff")
+      console.log("doing details search on: ")
+      console.log(rootURL)
       /*or await (const sub of document.subjects) {
         console.log(`${sub}`)
         console.log(await document.subjects.sparql)
@@ -50,9 +51,9 @@ export default function detailsFunc(rootURL, session, setterFunc, nodePathArr) {
         // Pass your authenticated session
         '@comunica/actor-http-inrupt-solid-client-authn:session': session,
       })
-        console.log("pineapple")
+        //console.log("pineapple")
         const bindings = await bindingsStream.toArray();
-        console.log(bindings)
+        //console.log(bindings)
         let subjectsList = []
         for(let entNum = 0; entNum < bindings.length ; entNum++) {
           const actualEntries = bindings[entNum].entries._root.entries
@@ -75,15 +76,19 @@ export default function detailsFunc(rootURL, session, setterFunc, nodePathArr) {
         //console.log(bindings[0].get('s').value);
         //console.log(bindings[0].get('s').termType);#
 
-
+        /*
         console.log(subjectsList)
         console.log("applying setterFunc")
-
+        */
         
         function updateFrontier (frontier, listOfSubjects) {
           // TODO: remove duplicates from frontier!
           
+          /*
           console.log("kazoo")
+          console.log(frontier)
+          console.log(listOfSubjects)#
+          */
           // removes current node from BFS frontier
           let newList = []
           for (let i = 0 ; i < frontier.length ; i++) {
@@ -120,11 +125,26 @@ export default function detailsFunc(rootURL, session, setterFunc, nodePathArr) {
               }
             } 
           }
-
+          console.log("apple")
+          console.log(newList)
           return(newList)
         }
+        
+        /*
+        let freshFrontier = updateFrontier(frontier, subjectsList)
+        console.log("mango setting frontier")
+        console.log(freshFrontier)
+        setFrontier(freshFrontier)
+        */
 
-        setterFunc(frontier => updateFrontier(frontier, subjectsList))
+        setFrontier((frontier) => {
+          console.log("updating frontier: ")
+          console.log(frontier)
+          let freshFrontier = updateFrontier(frontier, subjectsList)
+          console.log("fresh frontier: ")
+          console.log(freshFrontier)
+          return(freshFrontier)
+        })
     })(pod);
 
     
