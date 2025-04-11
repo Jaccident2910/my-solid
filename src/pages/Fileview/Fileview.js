@@ -184,17 +184,25 @@ function useTypeGrouping(frontier, bfsDoneFlag, setThingsWithTypes) {
       groupingObj = groupWithTypes(newFrontier, groupingObj)
       console.log(groupingObj)
       setThingsWithTypes(groupingObj)
+      console.log("Type grouping set")
     }
   }, [bfsDoneFlag, frontier, setThingsWithTypes])
 }
 
 function useTurtleFiles(thingsWithTypes, setAugmentedPosts, session) {
   useEffect(() => {
-    let newObj = turtleFileConsumer(thingsWithTypes, setAugmentedPosts, session)
-    console.log("peach")
-    console.log(newObj)
-    setAugmentedPosts(newObj)
+    console.log("using turtle files from: ")
+    console.log(thingsWithTypes)
+    turtleFileConsumer(thingsWithTypes, setAugmentedPosts, session)
   }, [thingsWithTypes, setAugmentedPosts])
+}
+
+
+function useAugmentedPosts(augmentedPosts) {
+  useEffect(() => {
+    console.log("final, augmented posts: ")
+    console.log(augmentedPosts)
+  }, [augmentedPosts])
 }
 
 export default function Fileview() {
@@ -260,7 +268,7 @@ console.log("Rendering Fileview again.")
 
   useTurtleFiles(thingsWithTypes, setAugmentedPosts, session)
 
-
+  useAugmentedPosts(augmentedPosts)
 
   return (<div className="mainScreen max-w-4xl flex-1">
     <div className="app-container">
