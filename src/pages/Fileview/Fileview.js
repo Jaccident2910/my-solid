@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
-import { useEffect, useState, useRef, } from 'react';
+import { useEffect, useState, useRef} from 'react';
 import detailsFunc from "./Details"
 import bfs from "./bfs"
 import groupWithTypes from "./groupWithTypes";
 import { turtleFileConsumer } from "./knowledgeGraph";
+import { useAPI } from "./apiUse";
 import {
   LoginButton,
   Text,
@@ -173,7 +174,7 @@ function useBFS(session, frontier, setFrontier, setBfsDone) {
   }, [frontier, setFrontier])
 }
 
-function useTypeGrouping(frontier, bfsDoneFlag, setThingsWithTypes) {
+function useTypeGrouping(frontier, bfsDoneFlag, setThingsWithTypes, setThingsGrouped) {
 
   
   useEffect(() => {
@@ -185,23 +186,30 @@ function useTypeGrouping(frontier, bfsDoneFlag, setThingsWithTypes) {
       console.log(groupingObj)
       setThingsWithTypes(groupingObj)
       console.log("Type grouping set")
+      setThingsGrouped(true)
     }
   }, [bfsDoneFlag, frontier, setThingsWithTypes])
 }
 
-function useTurtleFiles(thingsWithTypes, setAugmentedPosts, session) {
+function useTurtleFiles(thingsWithTypes, setAugmentedPosts, session, thingsGrouped, setTurtlesUsed) {
   useEffect(() => {
-    console.log("using turtle files from: ")
-    console.log(thingsWithTypes)
-    turtleFileConsumer(thingsWithTypes, setAugmentedPosts, session)
+    if (thingsGrouped) {
+      console.log("using turtle files from: ")
+      console.log(thingsWithTypes)
+      turtleFileConsumer(thingsWithTypes, setAugmentedPosts, session)
+      setTurtlesUsed(true)
+    }
   }, [thingsWithTypes, setAugmentedPosts])
 }
 
 
-function useAugmentedPosts(augmentedPosts) {
+function useAugmentedPosts(augmentedPosts, setReady, turtlesUsed) {
   useEffect(() => {
-    console.log("final, augmented posts: ")
-    console.log(augmentedPosts)
+    if(turtlesUsed) {
+      console.log("final, augmented posts: ")
+      console.log(augmentedPosts)
+      setReady(true)
+    }
   }, [augmentedPosts])
 }
 
@@ -240,6 +248,17 @@ export default function Fileview() {
   const [bfsDone, setBfsDone] = useState(false)
   //const [processingStarted, setProcessingStarted] = useState(false)
 
+  //state for thing grouping:
+  const [thingsGrouped, setThingsGrouped] = useState(false)
+
+  //state for turtle files used:
+  const [turtlesUsed, setTurtlesUsed] = useState(false)
+
+  //state for post augmentation:
+  const [postsAuged, setpostsAuged] = useState(false)
+
+  //state for API readiness:
+  const [apiReady, setApiReady] = useState(false)
 
 console.log("Rendering Fileview again.")
   // So I have kind of been using useEffect wrong. I should try to build my own custom hooks to handle the profile and the detaisl
@@ -264,11 +283,20 @@ console.log("Rendering Fileview again.")
   useBFS(session, frontier, setFrontier, setBfsDone)
 
   // Group items into a dictionary
-  useTypeGrouping(frontier, bfsDone, setThingsWithTypes)
+  useTypeGrouping(frontier, bfsDone, setThingsWithTypes, setThingsGrouped)
 
-  useTurtleFiles(thingsWithTypes, setAugmentedPosts, session)
+  useTurtleFiles(thingsWithTypes, setAugmentedPosts, session, thingsGrouped, setTurtlesUsed)
 
-  useAugmentedPosts(augmentedPosts)
+  useAugmentedPosts(augmentedPosts, setApiReady, turtlesUsed)
+
+  const [sendToAPI, setSendToAPI] = useState("")
+
+  
+  useAPI(augmentedPosts, apiReady, setSendToAPI)
+  //useAPI(augmentedPosts, apiReady, setApiReady)
+
+  console.log("sendToAPI: ", sendToAPI)
+
 
   return (<div className="mainScreen max-w-4xl flex-1">
     <div className="app-container">
@@ -293,6 +321,14 @@ console.log("Rendering Fileview again.")
                 Your root of file storage should be at:
                 {storageLoc}
               </h2>
+
+              <button
+                onClick={() => {
+                  console.log("Button pressed!")
+                  //console.log(typeof(sendToAPI))
+                  sendToAPI()
+                }}
+              > WOOO</button>
             </div>
           </CombinedDataProvider>
         ) : (

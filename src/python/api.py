@@ -1,13 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-
+from dataProcessing import convertToDict
 
 class Item(BaseModel):
-    name: str | None = None
-    description: str | None = None
-    price: float| None = None
-    tax: float | None = None
+    #name: str | None = None
+    #description: str | None = None
+    #price: float| None = None
+    #tax: float | None = None
+    class Config:
+        extra = "allow"
 
 
 app = FastAPI()
@@ -22,5 +24,7 @@ app.add_middleware(CORSMiddleware,
 
 @app.post("/items/")
 async def create_item(item: Item):
-    print(item.name)
-    return {"result": "yippee!!"}
+    print(item)
+    print("\n\n\n\n\n")
+    convertToDict(item)
+    return {"result": "Item received. Nice one, mate :)"}
