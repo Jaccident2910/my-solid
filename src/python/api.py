@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dataProcessing import convertToDict
-
+from mlTools import interface
 class Item(BaseModel):
     #name: str | None = None
     #description: str | None = None
@@ -26,5 +26,6 @@ app.add_middleware(CORSMiddleware,
 async def create_item(item: Item):
     print(item)
     print("\n\n\n\n\n")
-    convertToDict(item)
+    convertedDict = convertToDict(item)
+    interface(convertedDict)
     return {"result": "Item received. Nice one, mate :)"}
