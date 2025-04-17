@@ -1,0 +1,28 @@
+{
+    "types": [
+        "http://www.w3.org/ns/ldp#Resource",
+        "http://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+        "http://www.w3.org/ns/iana/media-types/text/plain#Resource",
+        "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+        "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+        "https://schema.org/ImageObject",
+        "http://www.w3.org/ns/iana/media-types/image/gif#Resource",
+        "http://www.w3.org/ns/iana/media-types/image/png#Resource"
+    ],
+    "searchPaths": [
+        "https://jaccident3.solidcommunity.net/",
+        "https://jaccident3.solidcommunity.net/public/",
+        "https://jaccident3.solidcommunity.net/profile/",
+        "https://jaccident3.solidcommunity.net/settings/",
+        "https://jaccident3.solidcommunity.net/public/images/",
+        "https://jaccident3.solidcommunity.net/public/posts/",
+        "https://jaccident3.solidcommunity.net/public/posts/data/",
+        "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+    ],
+    "classTags": {
+        "0": "config",
+        "1": "meta",
+        "2": "personal",
+        "3": "image"
+    }
+}

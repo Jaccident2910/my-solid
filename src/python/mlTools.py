@@ -1,34 +1,39 @@
 import json
 import os
 from sklearn import tree
-import numpy.core.multiarray
+import pickle
+#import numpy.core.multiarray
 
 # OPTIONS
 #-----------------
 
 inputName = "classifiedData1.json"
 outputName = "classifiedData1.json"
-
+treeFileName = "decisionTree.pickle"
+listCategoryName = "listCategories.json"
 # ----------------
 
 def numberClasses(classesDict):
     tagsDict = dict()
     numberedDict = dict()
-    for key, value in classesDict:
+    for key, value in classesDict.items():
         if value in tagsDict.keys():
             numberedDict[key] = tagsDict[value]
         else:
-            numOfTags = len(tagsDict.keys)
+            numOfTags = len(tagsDict.keys())
             # This should be 1 more than the last number we assigned!
             tagsDict[value] = numOfTags
             numberedDict[key] = tagsDict[value]
-    return(numberedDict)
+    reverseTags = dict()
+    for key1, value1 in tagsDict.items():
+        reverseTags[value1] = key1
+    return(numberedDict, reverseTags)
         
 
 
 def decisionTreeCreator(preparedDict, classesDict):
 
-    numberedClasses = numberClasses(classesDict)
+    (numberedClasses, classTags) = numberClasses(classesDict)
     #X = [[0, 0], [1, 1]]
 
     #Y = [0, 1]
@@ -38,7 +43,7 @@ def decisionTreeCreator(preparedDict, classesDict):
 
     for key, value in preparedDict.items():
         thisArray = []
-        for key1, value1 in value:
+        for key1, value1 in value.items():
             thisArray.append(value1)
         X.append(thisArray)
         Y.append(numberedClasses[key])
@@ -49,6 +54,7 @@ def decisionTreeCreator(preparedDict, classesDict):
     clf = tree.DecisionTreeClassifier()
 
     clf = clf.fit(X, Y)
+    return (clf, classTags)
 
 
 def typeCollate(valsDict):
@@ -73,29 +79,43 @@ def searchPathCollate(valsDict):
     print(collatedSearchPaths)
     return(collatedSearchPaths)
 
+def getDataDict(item, collatedTypes, collatedSearchPaths):
+    # This will need to change as we add more data
+    preparedItemDict = dict()
+    for key1, value1 in item.items():
+        if (key1 == "types"):
+            for theType in collatedTypes:
+                if theType in value1:
+                    preparedItemDict[theType] = 1
+                else:
+                    preparedItemDict[theType] = -1
+        elif (key1 == "searchPath"):
+            for thePath in collatedSearchPaths:
+                if thePath in value1:
+                    preparedItemDict[thePath] = 1
+                else:
+                    preparedItemDict[thePath] = -1
+        # There should be other ways of converting the given information into something useful
+        # TODO: file extension analysis.
+    return(preparedItemDict)
+
 def prepareDataForDT(valsDict):
     collatedTypes = typeCollate(valsDict)
     collatedSearchPaths = searchPathCollate(valsDict)
     preparedDataDict = dict()
     for key, value in valsDict.items():
-        preparedItemDict = dict()
-        for key1, value1 in value:
-            if (key1 == "types"):
-                for theType in collatedTypes:
-                    if theType in value1:
-                        preparedItemDict[theType] = 1
-                    else:
-                        preparedItemDict[theType] = -1
-            elif (key1 == "searchPath"):
-                for thePath in collatedSearchPaths:
-                    if thePath in value1:
-                        preparedItemDict[thePath] = 1
-                    else:
-                        preparedItemDict[thePath] = -1
-            # There should be other ways of converting the given information into something useful
-            #TODO: file extension analysis.
+        preparedItemDict = getDataDict(value, collatedTypes, collatedSearchPaths)
+        preparedDataDict[key] = preparedItemDict
+    return(preparedDataDict, collatedTypes, collatedSearchPaths)#
+
+def prepareDataForClassification(valsDict, collatedTypes, collatedSearchPaths):
+    preparedDataDict = dict()
+    for key, value in valsDict.items():
+        preparedItemDict = getDataDict(value, collatedTypes, collatedSearchPaths)
         preparedDataDict[key] = preparedItemDict
     return(preparedDataDict)
+
+
 def interface(valsDict):    
     if os.path.isfile('./' + inputName):
         inputFile = open(inputName, "r+")
@@ -103,17 +123,55 @@ def interface(valsDict):
     else: 
         inputDict = dict()
 
-    classifiedDict = dict()
-    for key in valsDict.keys():
-        if(key in inputDict):
-            classifiedDict[key] = inputDict[key]
-        else:
-            newClass = input("What should be the classification of " + key + "? classification: ")
-            classifiedDict[key] = newClass
+    mainOption = input("(t)rain the decision tree or (c)lassify new items?")
+    if mainOption == "t":
+        classifiedDict = dict()
+        for key in valsDict.keys():
+            if(key in inputDict):
+                classifiedDict[key] = inputDict[key]
+            else:
+                newClass = input("What should be the classification of " + key + "? classification: ")
+                classifiedDict[key] = newClass
 
-    outputFile = open(outputName, "w+")
-    outputFile.write(json.dumps(classifiedDict, indent=4))
+        outputFile = open(outputName, "w+")
+        outputFile.write(json.dumps(classifiedDict, indent=4))
 
-    preparedValsDict = prepareDataForDT(valsDict)
-    decisionTree = decisionTreeCreator(preparedValsDict)
+        (preparedValsDict, mainTypes, mainSearchPaths) = prepareDataForDT(valsDict)
+        (decisionTree, classTags) = decisionTreeCreator(preparedValsDict, classifiedDict)
+        treeFile = open(treeFileName, "wb+")
+        pickle.dump(decisionTree, treeFile)
+        categoryDict = dict()
+        categoryDict["types"] = mainTypes
+        categoryDict["searchPaths"] = mainSearchPaths
+        categoryDict["classTags"] = classTags
+        jsonFile = open(listCategoryName, "w+")
+        jsonFile.write(json.dumps(categoryDict, indent=4))
 
+
+
+    elif mainOption == "c":
+        unclassifiedDict = dict()
+        for key in valsDict.keys():
+            if not(key in inputDict.keys()):
+                unclassifiedDict[key] = valsDict[key]
+        treeFile = open(treeFileName, "rb")
+        loadedTree = pickle.load(treeFile)
+        jsonFile = open(listCategoryName, "r")
+        categorisedElements = json.loads(jsonFile.read())
+        classTags = categorisedElements["classTags"]
+        preparedDict = prepareDataForClassification(unclassifiedDict, categorisedElements["types"], categorisedElements["searchPaths"])
+        for key2, value2 in preparedDict.items():
+            thisArray = []
+            for key3, value3 in value2.items():
+                thisArray.append(value3)
+            if len(preparedDict.keys()) == 1:
+                newArray = []
+                newArray.append(thisArray)
+                thisArray = newArray
+            print("predicting key: " + key2)
+            print("Array: ")
+            print([thisArray])
+            print("prediction: ")
+            prediction = loadedTree.predict([thisArray])[0]
+            print(prediction)
+            print(classTags[str(prediction)])
