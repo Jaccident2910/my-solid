@@ -116,7 +116,9 @@ def prepareDataForClassification(valsDict, collatedTypes, collatedSearchPaths):
     return(preparedDataDict)
 
 
-def interface(valsDict):    
+
+
+def decisionTreesInterface(valsDict):
     if os.path.isfile('./' + inputName):
         inputFile = open(inputName, "r+")
         inputDict = json.loads(inputFile.read())
@@ -175,3 +177,37 @@ def interface(valsDict):
             prediction = loadedTree.predict([thisArray])[0]
             print(prediction)
             print(classTags[str(prediction)])
+
+
+def getLabelledData(valsDict):
+    import copy
+    # get values from classifiedData1.json for now
+    inputFile = open(inputName, "r+")
+    labelsDict = json.loads(inputFile.read())
+    #then check to see which values in their are in valsdict
+    mergedDict = dict()
+    for labelItem in labelsDict.keys():
+        if (labelItem in valsDict):
+            mergedItem = copy.deepcopy(valsDict[labelItem])
+            mergedItem["label"] = labelsDict[labelItem]
+            mergedDict[labelItem] = mergedItem
+    # return a merging of the vals and classes?
+    return(mergedDict)
+
+
+def caseBasedReasoningInterface(valsDict):
+    from cbr import getLabelledSimilarity
+    labelledDict = getLabelledData(valsDict)
+    unlabelledDict = dict()
+    for key, value in valsDict.items():
+        if not (key in labelledDict):
+            unlabelledDict[key] = value
+    similarityDict = dict()
+    for key, value in unlabelledDict.items():
+        print("evaluating similarity to " + key)
+        labelledSimilarity = getLabelledSimilarity(labelledDict, key, value)
+        similarityDict[key] = labelledSimilarity
+
+
+def interface(valsDict):    
+    decisionTreesInterface(valsDict)
