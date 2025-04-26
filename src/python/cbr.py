@@ -74,13 +74,33 @@ def getLabelledSimilarity(labelledDict, mainKey, mainValue):
 
     #---------------------------------------------
 
+    # Generating metric interfaces
+
+    interfacesDict = dict()
+    for key3, value3 in metricDict.items():
+        newInterface = MetricInterface(value3["metric"], value3["optionalWeights"])
+        interfacesDict[key3] = {
+            "interface": newInterface,
+            "linearWeight": value3["linearWeight"],
+        }
     ## Applying metrics
     similarityDict = dict()
     for key2, value2 in labelledDict.items():
         metricValuesDict = dict()
-        for theMetric in metricDict:
-            # what am I even doing, I've lost the plot
-            pass
+        for key4, interfaceObj in interfacesDict.items():
+            metricValuesDict[key4] = interfaceObj["interface"].getScore(value2, interfaceObj["linearWeight"])
+        similarityDict[key2] = metricValuesDict
 
+    # This may be a bit more involved later, or just unnecessarily complicated
 
+    scoresDict = dict()
+    for key5, value5 in similarityDict.items():
+        score = 0
+        for key6, value6 in value5.items():
+            score += value6
+        scoresDict[key5] = score
+    
+    return(scoresDict)
+
+    # Now we need to do the q-nearest neighbours stuff!
         
