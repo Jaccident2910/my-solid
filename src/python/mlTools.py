@@ -196,18 +196,31 @@ def getLabelledData(valsDict):
 
 
 def caseBasedReasoningInterface(valsDict):
-    from cbr import getLabelledSimilarity
+    from cbr import getLabelledSimilarity, getQNearestLabels, linearConsensusFunction
     labelledDict = getLabelledData(valsDict)
     unlabelledDict = dict()
     for key, value in valsDict.items():
         if not (key in labelledDict):
             unlabelledDict[key] = value
     similarityDict = dict()
+    newLabelledDict = dict()
     for key, value in unlabelledDict.items():
         print("evaluating similarity to " + key)
         labelledSimilarity = getLabelledSimilarity(labelledDict, key, value)
         similarityDict[key] = labelledSimilarity
+        q = 10
+        qNearestLabels = getQNearestLabels(key, q, similarityDict, labelledDict)
+        winningLabel = linearConsensusFunction(qNearestLabels)
+        print("label for", key)
+        print(winningLabel)
+        newLabelledDict[key] = value
+        newLabelledDict[key]["label"] = winningLabel
+
+    # can do extra run with merge of new labelled dict and more elaborate revision section if wanted
+    #returning the new labels for now
+    return(newLabelledDict)
+
 
 
 def interface(valsDict):    
-    decisionTreesInterface(valsDict)
+    newLabelledDict = caseBasedReasoningInterface(valsDict)
