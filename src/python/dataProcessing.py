@@ -1,5 +1,6 @@
 import json 
 from inspect import get_annotations
+
 def convertToDict(itemObj):
     newDict = itemObj.dict()
     print("Loaded! The type is: ")

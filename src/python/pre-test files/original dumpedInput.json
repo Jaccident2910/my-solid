@@ -1,0 +1,2397 @@
+{
+    "https://jaccident3.solidcommunity.net/README": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/markdown#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/robots.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post56.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post66.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post61.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post76.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post63.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post71.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post80.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post60.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post64.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post65.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post77.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post70.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post78.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post57.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post79.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post75.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post58.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post55.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post69.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post74.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post72.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post73.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post67.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post68.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post52.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post62.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post53.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post59.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post51.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/post54.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/profile/card": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/profile/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/settings/privateTypeIndex.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/settings/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/settings/prefs.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/settings/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/settings/publicTypeIndex.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/settings/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/images/32.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "More flowers!!!!!!"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/30.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Stone"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/22.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "This one is supposedly called Apocalypse. Lol."
+    },
+    "https://jaccident3.solidcommunity.net/public/images/33.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Lights! Lights! Action!"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/29.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "pretty flowers"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/21.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Another grate photo!"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/38.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/test1.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#test1",
+        "https://schema.org/caption": "I hope this works!"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/35.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/27.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Galactic proportions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/37.gif": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/gif#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/40.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/34.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Some more geometric patterns for the pod!"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/24.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Another fool with stars in his eyes"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/25.JPG": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Bug!"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/23.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "A really cool fox O_O"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/39.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/36.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/28.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Hooked on the purple!"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/31.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "A bunch of stuff"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/26.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Is this the bloody CompSoc banner???"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post41.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post26.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post18.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post20.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post50.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post10.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post16.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post38.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post35.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post6.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post5.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post32.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post23.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post48.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post13.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post29.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post34.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post4.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post12.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/test1.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post42.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post15.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post46.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post37.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post36.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post8.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post19.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post31.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post28.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post24.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post47.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post44.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post9.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post22.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post40.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post45.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post27.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post49.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post2.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post21.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post39.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/1.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "A terrible bit of artwork of mine. Gotta love MSPaint"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post17.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post3.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post7.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post25.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post30.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post43.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post14.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post1.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post11.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/post33.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/47.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/63.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/58.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/69.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/51.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post51",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/55.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/68.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/56.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/59.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/48.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/54.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/41.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/45.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/65.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/57.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/67.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/43.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/66.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/44.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/53.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/42.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/61.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/64.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/62.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/52.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post52",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/49.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/70.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/46.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/60.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/50.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/18.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/4.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "I don't even know what this one is!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/93.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/92.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/78.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/17.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/79.JPG": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/82.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/85.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/15.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Closed Caption? Creative Commons? Who knows!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/89.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/7.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "OOOO this one has a heart"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/95.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/72.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/5.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "A THING!!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/3.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "More bad artwork!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/88.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/94.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/75.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/97.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/74.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/99.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/86.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/14.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Oh come on this is just unfair."
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/77.JPG": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/8.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Lots of things happening here, Chibnall would love it"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/98.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/96.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/73.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/80.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/10.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Vibey but meh"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/11.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Sparkle but make it edgy"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/19.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "No clue what this is supposed to be"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/6.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Overlapping shapes with cool colours (we'll see more of this later!)"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/81.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/12.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Half Life 3 confirmed???"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/84.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/76.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/83.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/91.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/71.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/87.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/16.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "Someone's been learning Bender!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/90.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/13.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "The return of Digi-Jholmes!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/9.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": ":)"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/2.png": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/png#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "More bad artwork!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/20.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource",
+            "https://schema.org/ImageObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
+        "https://schema.org/caption": "What a grate photo!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/data/images/100.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/",
+            "https://jaccident3.solidcommunity.net/public/posts/data/images/"
+        ]
+    }
+}

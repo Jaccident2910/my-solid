@@ -86,8 +86,55 @@ def getLabelledSimilarity(labelledDict, mainKey, mainValue):
 
     # -------------------------------------------- 
     # NEXT METRIC
+    # --------------------------------------------
+    # --------- LINEAR LOCATION METRIC -----------
+    def linearFileMeasure(item, optionalWeightings):
+        commonLocationCount = 0
+        for location in item["searchPath"]:
+            if location in mainValue["searchPath"]:
+                commonLocationCount += 1
+        return(commonLocationCount)
+    linearFileMetric = Metric("Linear File Metric", linearFileMeasure)
+    metricDict = setMetric(metricDict, linearFileMetric, 1, None)
+    # --------------------------------------------
+    # --------- FALLOFF LOCATION METRIC ----------
+    def falloffFileMeasure(item, optionalWeightings):
+        commonLocationCount = 0
+        for location in item["searchPath"]:
+            if location in mainValue["searchPath"]:
+                commonLocationCount += 1
+        # Exponent Amount is the value unrelated to the common locations in the formula, e.g. used for quadratic falloff
+        exponentAmount = optionalWeightings["exponentAmount"]
+        # Exponent Factor used to include common loc count in the formula, e.g. used for exponential falloff
+        exponentFactor = optionalWeightings["exponentFactor"]
+        # Base Amount is the constant amount multiplied by in the base of the exponent
+        baseAmount = optionalWeightings["baseAmount"]
+        # Base Factor is the common loc count included in the base of the exponent
+        baseFactor = optionalWeightings["baseFactor"]
 
-    #---------------------------------------------
+        #baselineDepth is the amount you should get if you have a complete match for most things, i.e. the average depth of an item
+        baselineDepth = optionalWeightings["baselineDepth"]
+
+        itemVal = (baseAmount + baseFactor * (commonLocationCount))**(exponentAmount + exponentFactor* (commonLocationCount))
+        baselineVal = (baseAmount + baseFactor * (baselineDepth))**(exponentAmount + exponentFactor* (baselineDepth))
+        return(itemVal/baselineVal)
+    falloffFileMetric = Metric("Linear File Metric", falloffFileMeasure)
+    quadraticFalloffDict = {
+        "exponentAmount": 2,
+        "exponentFactor": 0,
+        "baseAmount": 0,
+        "baseFactor": 1,
+        "baselineDepth": 3
+    }
+    metricDict = setMetric(metricDict, falloffFileMetric, 2, quadraticFalloffDict)
+    exponentialFalloffDict = {
+        "exponentAmount": 0,
+        "exponentFactor": 1,
+        "baseAmount": 2,
+        "baseFactor": 0,
+        "baselineDepth": 3
+    }
+    metricDict = setMetric(metricDict, falloffFileMetric, 2, exponentialFalloffDict)
 
     # Generating metric interfaces
 

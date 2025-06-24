@@ -11,6 +11,11 @@ inputName = "classifiedData1.json"
 outputName = "classifiedData1.json"
 treeFileName = "decisionTree.pickle"
 listCategoryName = "listCategories.json"
+
+dumpedInputName = "dumpedInput.json"
+
+testOutputName = "testOutput.txt"
+cbrOutputName = "cbrTestOutput.txt"
 # ----------------
 
 def numberClasses(classesDict):
@@ -160,6 +165,9 @@ def decisionTreesInterface(valsDict):
         loadedTree = pickle.load(treeFile)
         jsonFile = open(listCategoryName, "r")
         categorisedElements = json.loads(jsonFile.read())
+
+        testOutputFile = open(testOutputName, "a+")
+
         classTags = categorisedElements["classTags"]
         preparedDict = prepareDataForClassification(unclassifiedDict, categorisedElements["types"], categorisedElements["searchPaths"])
         for key2, value2 in preparedDict.items():
@@ -177,6 +185,9 @@ def decisionTreesInterface(valsDict):
             prediction = loadedTree.predict([thisArray])[0]
             print(prediction)
             print(classTags[str(prediction)])
+
+            testOutputFile.write("predicting key: " + key2 + ", predicted " + classTags[str(prediction)] +"\n")
+
 
 
 def getLabelledData(valsDict):
@@ -204,6 +215,7 @@ def caseBasedReasoningInterface(valsDict):
             unlabelledDict[key] = value
     similarityDict = dict()
     newLabelledDict = dict()
+    cbrOutputFile = open(cbrOutputName, "a+")
     for key, value in unlabelledDict.items():
         print("evaluating similarity to " + key)
         labelledSimilarity = getLabelledSimilarity(labelledDict, key, value)
@@ -213,14 +225,24 @@ def caseBasedReasoningInterface(valsDict):
         winningLabel = linearConsensusFunction(qNearestLabels)
         print("label for", key)
         print(winningLabel)
+        cbrOutputFile.write("label for: " + key + ", prediction " + winningLabel + "\n")
         newLabelledDict[key] = value
         newLabelledDict[key]["label"] = winningLabel
 
     # can do extra run with merge of new labelled dict and more elaborate revision section if wanted
     #returning the new labels for now
+
+    
+    
     return(newLabelledDict)
 
 
 
-def interface(valsDict):    
+def interface(valsDict):
+    interfaceOption = ""
+    while(not (interfaceOption == "y" or interfaceOption == "n")):
+        interfaceOption = input("Would you like to write this input to a file? y/n")
+    if interfaceOption == "y":
+        jsonFile = open(dumpedInputName, "w+")
+        jsonFile.write(json.dumps(valsDict, indent=4))
     newLabelledDict = caseBasedReasoningInterface(valsDict)

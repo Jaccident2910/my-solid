@@ -8,9 +8,8 @@ function readTurtlePostFormat(turtleObj) {
     // This part is specific to the post format I used when creating my image posts. 
     // There is a .ttl file that specifies there being a thing called a post with specific attributes.
     // Time to process that!
-
+    console.log("Reading turtle object: ", turtleObj)
     let processedTurtleObj = {}
-
     for (const [key0, value0] of Object.entries(turtleObj.graphs.default)) {
         //console.log(`${key}: ${value}`);
 
@@ -72,13 +71,51 @@ function augmentPosts(postObj, turtleFile) {
     //console.log(turtleFile)
 
     let processedTurtleObj = readTurtlePostFormat(turtleFile)
-
+    console.log("processed Turtle object: ", processedTurtleObj)
     /* TODO: 
             - Finish processing on turtle posts - need caption and type and url info alone.
             - Apply this to the post being augmented!
-
     */
-    if (Object.hasOwn(processedTurtleObj, "https://schema.org/contentURL")) {
+
+
+    // Combo specific augmentation:
+    if(Object.hasOwn(processedTurtleObj, "https://schema.org/image") && Object.hasOwn(processedTurtleObj, "https://schema.org/contentURL")) {
+        // So we have ourselves a combo:
+        if(Object.hasOwn(postObj, processedTurtleObj["https://schema.org/contentURL"])) {
+            // We have a contentURL
+            if(Object.hasOwn(postObj, processedTurtleObj["https://schema.org/contentURL"])) {
+                // We have an image!
+                for (const [key, value] of Object.entries(processedTurtleObj)) {
+                    if (key != "https://schema.org/contentURL" && key != "https://schema.org/image") {
+                        if(key == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" || key == "https://www.w3.org/1999/02/22-rdf-syntax-ns#type")
+                            {
+                                postObj[processedTurtleObj["https://schema.org/contentURL"]].types = postObj[processedTurtleObj["https://schema.org/contentURL"]].types.concat([value])
+                                postObj[processedTurtleObj["https://schema.org/image"]].types = postObj[processedTurtleObj["https://schema.org/image"]].types.concat([value])   
+                            }
+                        else {
+                            postObj[processedTurtleObj["https://schema.org/contentURL"]][key] = value
+                            postObj[processedTurtleObj["https://schema.org/image"]][key] = value
+                        }
+                    }    
+                }   
+
+                // Time to relate the two objects to each other:
+                if(typeof postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo == 'undefined') {
+                    postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo = []
+                }
+                if(typeof postObj[processedTurtleObj["https://schema.org/image"]].relatedTo == 'undefined') {
+                    postObj[processedTurtleObj["https://schema.org/image"]].relatedTo = []
+                }
+
+                postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo = postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo.concat([processedTurtleObj["https://schema.org/image"]])
+                postObj[processedTurtleObj["https://schema.org/image"]].relatedTo = postObj[processedTurtleObj["https://schema.org/image"]].relatedTo.concat([processedTurtleObj["https://schema.org/contentURL"]])
+            }
+        }
+    }
+
+
+
+    else if (Object.hasOwn(processedTurtleObj, "https://schema.org/contentURL")) {
         if(Object.hasOwn(postObj, processedTurtleObj["https://schema.org/contentURL"])) {
             //postObj[processedTurtleObj["https://schema.org/contentURL"]]
 
