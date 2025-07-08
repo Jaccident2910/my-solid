@@ -17,6 +17,16 @@
             "https://jaccident3.solidcommunity.net/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/pdf7.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/93.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -37,10 +47,100 @@
             "https://jaccident3.solidcommunity.net/public/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/pdf19.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf5.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf2.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf14.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf1.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf4.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/95.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf9.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf13.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf18.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
@@ -57,6 +157,16 @@
             "https://jaccident3.solidcommunity.net/public/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/pdf8.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/97.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -67,10 +177,30 @@
             "https://jaccident3.solidcommunity.net/public/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/pdf10.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/99.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf3.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
@@ -97,10 +227,80 @@
             "https://jaccident3.solidcommunity.net/public/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/pdf20.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/91.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf16.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf6.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf12.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf11.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf17.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/pdf15.pdf": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/application/pdf#Resource"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
@@ -125,17 +325,124 @@
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/profile/"
-        ]
+        ],
+        "graphs": {
+            "default": {
+                "https://jaccident3.solidcommunity.net/profile/card": {
+                    "type": "Subject",
+                    "url": "https://jaccident3.solidcommunity.net/profile/card",
+                    "predicates": {
+                        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+                            "namedNodes": [
+                                "http://xmlns.com/foaf/0.1/PersonalProfileDocument"
+                            ]
+                        },
+                        "http://xmlns.com/foaf/0.1/maker": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/profile/card#me"
+                            ]
+                        },
+                        "http://xmlns.com/foaf/0.1/primaryTopic": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/profile/card#me"
+                            ]
+                        }
+                    }
+                },
+                "https://jaccident3.solidcommunity.net/profile/card#me": {
+                    "type": "Subject",
+                    "url": "https://jaccident3.solidcommunity.net/profile/card#me",
+                    "predicates": {
+                        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+                            "namedNodes": [
+                                "http://xmlns.com/foaf/0.1/Person"
+                            ]
+                        },
+                        "http://www.w3.org/ns/pim/space#storage": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/"
+                            ]
+                        },
+                        "http://www.w3.org/ns/ldp#inbox": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/inbox/"
+                            ]
+                        },
+                        "http://www.w3.org/ns/pim/space#preferencesFile": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/settings/prefs.ttl"
+                            ]
+                        },
+                        "http://www.w3.org/ns/solid/terms#privateTypeIndex": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/settings/privateTypeIndex.ttl"
+                            ]
+                        },
+                        "http://www.w3.org/ns/solid/terms#publicTypeIndex": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/settings/publicTypeIndex.ttl"
+                            ]
+                        },
+                        "http://www.w3.org/ns/solid/terms#oidcIssuer": {
+                            "namedNodes": [
+                                "https://solidcommunity.net/"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "type": "Dataset",
+        "internal_resourceInfo": {
+            "sourceIri": "https://jaccident3.solidcommunity.net/profile/card",
+            "isRawData": false,
+            "contentType": "text/turtle",
+            "linkedResources": {
+                "type": [
+                    "http://www.w3.org/ns/ldp#Resource"
+                ],
+                "describedby": [
+                    "https://jaccident3.solidcommunity.net/profile/card.meta"
+                ],
+                "http://www.w3.org/ns/solid/terms#updatesViaStreamingHttp2023": [
+                    "https://solidcommunity.net/.notifications/StreamingHTTPChannel2023/https%3A%2F%2Fjaccident3.solidcommunity.net%2Fprofile%2Fcard"
+                ],
+                "acl": [
+                    "https://jaccident3.solidcommunity.net/profile/card.acl"
+                ],
+                "http://www.w3.org/ns/solid/terms#storageDescription": [
+                    "https://jaccident3.solidcommunity.net/.well-known/solid"
+                ]
+            },
+            "aclUrl": "https://jaccident3.solidcommunity.net/profile/card.acl",
+            "permissions": {
+                "user": {
+                    "read": true,
+                    "append": true,
+                    "write": true,
+                    "control": true
+                },
+                "public": {
+                    "read": true,
+                    "append": false,
+                    "write": false,
+                    "control": false
+                }
+            }
+        }
     },
     "https://jaccident3.solidcommunity.net/settings/privateTypeIndex.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "http://www.w3.org/ns/solid/terms#TypeIndex",
+            "http://www.w3.org/ns/solid/terms#UnlistedDocument"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/settings/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/settings/privateTypeIndex.ttl"
     },
     "https://jaccident3.solidcommunity.net/settings/prefs.ttl": {
         "types": [
@@ -145,17 +452,96 @@
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/settings/"
-        ]
+        ],
+        "graphs": {
+            "default": {
+                "https://jaccident3.solidcommunity.net/settings/prefs.ttl": {
+                    "type": "Subject",
+                    "url": "https://jaccident3.solidcommunity.net/settings/prefs.ttl",
+                    "predicates": {
+                        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+                            "namedNodes": [
+                                "http://www.w3.org/ns/pim/space#ConfigurationFile"
+                            ]
+                        },
+                        "http://purl.org/dc/terms/title": {
+                            "literals": {
+                                "http://www.w3.org/2001/XMLSchema#string": [
+                                    "Preferences file"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "https://jaccident3.solidcommunity.net/profile/card#me": {
+                    "type": "Subject",
+                    "url": "https://jaccident3.solidcommunity.net/profile/card#me",
+                    "predicates": {
+                        "http://www.w3.org/ns/solid/terms#publicTypeIndex": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/settings/publicTypeIndex.ttl"
+                            ]
+                        },
+                        "http://www.w3.org/ns/solid/terms#privateTypeIndex": {
+                            "namedNodes": [
+                                "https://jaccident3.solidcommunity.net/settings/privateTypeIndex.ttl"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "type": "Dataset",
+        "internal_resourceInfo": {
+            "sourceIri": "https://jaccident3.solidcommunity.net/settings/prefs.ttl",
+            "isRawData": false,
+            "contentType": "text/turtle",
+            "linkedResources": {
+                "type": [
+                    "http://www.w3.org/ns/ldp#Resource"
+                ],
+                "describedby": [
+                    "https://jaccident3.solidcommunity.net/settings/prefs.ttl.meta"
+                ],
+                "http://www.w3.org/ns/solid/terms#updatesViaStreamingHttp2023": [
+                    "https://solidcommunity.net/.notifications/StreamingHTTPChannel2023/https%3A%2F%2Fjaccident3.solidcommunity.net%2Fsettings%2Fprefs.ttl"
+                ],
+                "acl": [
+                    "https://jaccident3.solidcommunity.net/settings/prefs.ttl.acl"
+                ],
+                "http://www.w3.org/ns/solid/terms#storageDescription": [
+                    "https://jaccident3.solidcommunity.net/.well-known/solid"
+                ]
+            },
+            "aclUrl": "https://jaccident3.solidcommunity.net/settings/prefs.ttl.acl",
+            "permissions": {
+                "user": {
+                    "read": true,
+                    "append": true,
+                    "write": true,
+                    "control": true
+                },
+                "public": {
+                    "read": false,
+                    "append": false,
+                    "write": false,
+                    "control": false
+                }
+            }
+        }
     },
     "https://jaccident3.solidcommunity.net/settings/publicTypeIndex.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "http://www.w3.org/ns/solid/terms#TypeIndex",
+            "http://www.w3.org/ns/solid/terms#ListedDocument"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/settings/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/settings/publicTypeIndex.ttl"
     },
     "https://jaccident3.solidcommunity.net/public/images/combo9.jpg": {
         "types": [
@@ -406,6 +792,22 @@
             "https://jaccident3.solidcommunity.net/public/articles/combo14.txt"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo5.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo5",
+        "https://schema.org/caption": "5: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo5.txt"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/images/combo59.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -421,6 +823,22 @@
         "https://schema.org/caption": "59: This is the test caption for combo posts!",
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/articles/combo59.txt"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo6.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo6",
+        "https://schema.org/caption": "6: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo6.txt"
         ]
     },
     "https://jaccident3.solidcommunity.net/public/images/combo15.jpg": {
@@ -537,6 +955,22 @@
         "https://schema.org/caption": "53: This is the test caption for combo posts!",
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/articles/combo53.txt"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo9.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo9",
+        "https://schema.org/caption": "9: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo9.txt"
         ]
     },
     "https://jaccident3.solidcommunity.net/public/images/combo23.jpg": {
@@ -721,6 +1155,22 @@
         "https://schema.org/caption": "56: This is the test caption for combo posts!",
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/articles/combo56.txt"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo7.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo7",
+        "https://schema.org/caption": "7: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo7.txt"
         ]
     },
     "https://jaccident3.solidcommunity.net/public/images/combo95.jpg": {
@@ -944,6 +1394,22 @@
             "https://jaccident3.solidcommunity.net/public/articles/combo36.txt"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo4.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo4",
+        "https://schema.org/caption": "4: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo4.txt"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/images/combo13.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -1103,6 +1569,22 @@
         "https://schema.org/caption": "6: This is the test caption for combo posts!",
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/articles/combo6.txt"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo10.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo10",
+        "https://schema.org/caption": "10: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo10.txt"
         ]
     },
     "https://jaccident3.solidcommunity.net/public/images/combo7.jpg": {
@@ -1269,6 +1751,22 @@
             "https://jaccident3.solidcommunity.net/public/articles/combo24.txt"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo1.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo1",
+        "https://schema.org/caption": "1: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo1.txt"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/images/37.gif": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -1282,6 +1780,22 @@
         ],
         "thingURL": "https://jaccident3.solidcommunity.net/public/posts#post1",
         "https://schema.org/caption": "From now on I'm giving up on writing captions"
+    },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo8.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo8",
+        "https://schema.org/caption": "8: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo8.txt"
+        ]
     },
     "https://jaccident3.solidcommunity.net/public/images/combo51.jpg": {
         "types": [
@@ -1588,6 +2102,22 @@
             "https://jaccident3.solidcommunity.net/public/articles/combo2.txt"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo3.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo3",
+        "https://schema.org/caption": "3: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo3.txt"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/images/combo82.jpg": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -1764,6 +2294,22 @@
         "https://schema.org/caption": "28: This is the test caption for combo posts!",
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/articles/combo28.txt"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/images/typeless_combo2.jpg": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/images/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo2",
+        "https://schema.org/caption": "2: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/articles/typeless_combo2.txt"
         ]
     },
     "https://jaccident3.solidcommunity.net/public/images/combo94.jpg": {
@@ -2357,6 +2903,22 @@
             "https://jaccident3.solidcommunity.net/public/images/combo35.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo5.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo5",
+        "https://schema.org/caption": "5: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo5.jpg"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/articles/combo7.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -2418,6 +2980,19 @@
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/images/combo59.jpg"
         ]
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article2.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle2",
+        "https://schema.org/description": "2: This is a caption for a article post with no type annotations!"
     },
     "https://jaccident3.solidcommunity.net/public/articles/article24.txt": {
         "types": [
@@ -2491,6 +3066,19 @@
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/images/combo85.jpg"
         ]
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article5.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle5",
+        "https://schema.org/description": "5: This is a caption for a article post with no type annotations!"
     },
     "https://jaccident3.solidcommunity.net/public/articles/combo99.txt": {
         "types": [
@@ -2567,6 +3155,22 @@
         ],
         "thingURL": "https://jaccident3.solidcommunity.net/public/posts#article100",
         "https://schema.org/description": "100: This is the test caption for article posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo8.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo8",
+        "https://schema.org/caption": "8: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo8.jpg"
+        ]
     },
     "https://jaccident3.solidcommunity.net/public/articles/article54.txt": {
         "types": [
@@ -2818,6 +3422,22 @@
             "https://jaccident3.solidcommunity.net/public/images/combo61.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo1.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo1",
+        "https://schema.org/caption": "1: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo1.jpg"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/articles/article63.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -2883,6 +3503,19 @@
             "https://jaccident3.solidcommunity.net/public/images/combo43.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article6.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle6",
+        "https://schema.org/description": "6: This is a caption for a article post with no type annotations!"
+    },
     "https://jaccident3.solidcommunity.net/public/articles/article16.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -2910,6 +3543,22 @@
         ],
         "thingURL": "https://jaccident3.solidcommunity.net/public/posts#article97",
         "https://schema.org/description": "97: This is the test caption for article posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo2.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo2",
+        "https://schema.org/caption": "2: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo2.jpg"
+        ]
     },
     "https://jaccident3.solidcommunity.net/public/articles/article65.txt": {
         "types": [
@@ -2957,6 +3606,22 @@
         "https://schema.org/caption": "78: This is the test caption for combo posts!",
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/images/combo78.jpg"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo3.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo3",
+        "https://schema.org/caption": "3: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo3.jpg"
         ]
     },
     "https://jaccident3.solidcommunity.net/public/articles/combo10.txt": {
@@ -3134,6 +3799,22 @@
             "https://jaccident3.solidcommunity.net/public/images/combo27.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo10.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo10",
+        "https://schema.org/caption": "10: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo10.jpg"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/articles/article28.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -3147,6 +3828,19 @@
         ],
         "thingURL": "https://jaccident3.solidcommunity.net/public/posts#article28",
         "https://schema.org/description": "28: This is the test caption for article posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article8.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle8",
+        "https://schema.org/description": "8: This is a caption for a article post with no type annotations!"
     },
     "https://jaccident3.solidcommunity.net/public/articles/article22.txt": {
         "types": [
@@ -3251,6 +3945,19 @@
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/images/combo68.jpg"
         ]
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article3.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle3",
+        "https://schema.org/description": "3: This is a caption for a article post with no type annotations!"
     },
     "https://jaccident3.solidcommunity.net/public/articles/article40.txt": {
         "types": [
@@ -3448,6 +4155,19 @@
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/images/combo84.jpg"
         ]
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article10.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle10",
+        "https://schema.org/description": "10: This is a caption for a article post with no type annotations!"
     },
     "https://jaccident3.solidcommunity.net/public/articles/article49.txt": {
         "types": [
@@ -4622,6 +5342,22 @@
             "https://jaccident3.solidcommunity.net/public/images/combo55.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo4.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo4",
+        "https://schema.org/caption": "4: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo4.jpg"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/articles/combo100.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -4876,6 +5612,19 @@
             "https://jaccident3.solidcommunity.net/public/images/combo87.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article9.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle9",
+        "https://schema.org/description": "9: This is a caption for a article post with no type annotations!"
+    },
     "https://jaccident3.solidcommunity.net/public/articles/combo14.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -4893,6 +5642,19 @@
             "https://jaccident3.solidcommunity.net/public/images/combo14.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article1.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle1",
+        "https://schema.org/description": "1: This is a caption for a article post with no type annotations!"
+    },
     "https://jaccident3.solidcommunity.net/public/articles/combo15.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -4908,6 +5670,38 @@
         "https://schema.org/caption": "15: This is the test caption for combo posts!",
         "relatedTo": [
             "https://jaccident3.solidcommunity.net/public/images/combo15.jpg"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo6.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo6",
+        "https://schema.org/caption": "6: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo6.jpg"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo9.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo9",
+        "https://schema.org/caption": "9: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo9.jpg"
         ]
     },
     "https://jaccident3.solidcommunity.net/public/articles/article30.txt": {
@@ -5054,6 +5848,22 @@
             "https://jaccident3.solidcommunity.net/public/images/combo54.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_combo7.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessCombo7",
+        "https://schema.org/caption": "7: This is a caption for a article post with no type annotations!",
+        "relatedTo": [
+            "https://jaccident3.solidcommunity.net/public/images/typeless_combo7.jpg"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/articles/article61.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -5161,6 +5971,19 @@
         "thingURL": "https://jaccident3.solidcommunity.net/public/posts#article36",
         "https://schema.org/description": "36: This is the test caption for article posts!"
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article7.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle7",
+        "https://schema.org/description": "7: This is a caption for a article post with no type annotations!"
+    },
     "https://jaccident3.solidcommunity.net/public/articles/article92.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -5206,6 +6029,19 @@
         "thingURL": "https://jaccident3.solidcommunity.net/public/posts#article35",
         "https://schema.org/description": "35: This is the test caption for article posts!"
     },
+    "https://jaccident3.solidcommunity.net/public/articles/typeless_article4.txt": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/plain#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/articles/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#typelessArticle4",
+        "https://schema.org/description": "4: This is a caption for a article post with no type annotations!"
+    },
     "https://jaccident3.solidcommunity.net/public/articles/article98.txt": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -5237,6 +6073,17 @@
             "https://jaccident3.solidcommunity.net/public/images/combo77.jpg"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article3.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/posts/combo53.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -5262,13 +6109,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text79.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text79",
+        "https://schema.org/text": "79: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article48.ttl": {
         "types": [
@@ -5284,13 +6134,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text34.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text34",
+        "https://schema.org/text": "34: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo64.ttl": {
         "types": [
@@ -5317,13 +6170,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text76.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text76",
+        "https://schema.org/text": "76: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post41.ttl": {
         "types": [
@@ -5380,6 +6236,17 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article4.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/posts/article44.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -5405,13 +6272,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text70.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text70",
+        "https://schema.org/text": "70: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article67.ttl": {
         "types": [
@@ -5479,7 +6349,29 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo1.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/posts/post18.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article9.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -5515,13 +6407,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text52.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text52",
+        "https://schema.org/text": "52: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post20.ttl": {
         "types": [
@@ -5568,6 +6463,20 @@
         ]
     },
     "https://jaccident3.solidcommunity.net/public/posts/text50.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text50",
+        "https://schema.org/text": "50: This is the test caption for text posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article7.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -5680,13 +6589,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text2.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text2",
+        "https://schema.org/text": "2: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post63.ttl": {
         "types": [
@@ -5713,24 +6625,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text71.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text71",
+        "https://schema.org/text": "71: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text40.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text40",
+        "https://schema.org/text": "40: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article89.ttl": {
         "types": [
@@ -5779,13 +6697,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text49.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text49",
+        "https://schema.org/text": "49: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post35.ttl": {
         "types": [
@@ -5821,6 +6742,17 @@
         ]
     },
     "https://jaccident3.solidcommunity.net/public/posts/article11.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo9.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -5878,24 +6810,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text80.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text80",
+        "https://schema.org/text": "80: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text67.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text67",
+        "https://schema.org/text": "67: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post6.ttl": {
         "types": [
@@ -5999,13 +6937,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text36.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text36",
+        "https://schema.org/text": "36: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo80.ttl": {
         "types": [
@@ -6087,24 +7028,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text35.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text35",
+        "https://schema.org/text": "35: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text66.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text66",
+        "https://schema.org/text": "66: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article34.ttl": {
         "types": [
@@ -6153,6 +7100,20 @@
     "https://jaccident3.solidcommunity.net/public/posts/text33.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text33",
+        "https://schema.org/text": "33: This is the test caption for text posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/article61.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
         ],
         "searchPath": [
@@ -6161,7 +7122,7 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
-    "https://jaccident3.solidcommunity.net/public/posts/article61.ttl": {
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article5.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -6175,24 +7136,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text21.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text21",
+        "https://schema.org/text": "21: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text94.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text94",
+        "https://schema.org/text": "94: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article29.ttl": {
         "types": [
@@ -6227,7 +7194,7 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
-    "https://jaccident3.solidcommunity.net/public/posts/text53.ttl": {
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article2.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -6237,6 +7204,20 @@
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/text53.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text53",
+        "https://schema.org/text": "53: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo62.ttl": {
         "types": [
@@ -6252,24 +7233,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text28.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text28",
+        "https://schema.org/text": "28: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text97.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text97",
+        "https://schema.org/text": "97: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article58.ttl": {
         "types": [
@@ -6285,35 +7272,44 @@
     "https://jaccident3.solidcommunity.net/public/posts/text93.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text93",
+        "https://schema.org/text": "93: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text78.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text78",
+        "https://schema.org/text": "78: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text75.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text75",
+        "https://schema.org/text": "75: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article37.ttl": {
         "types": [
@@ -6395,13 +7391,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text48.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text48",
+        "https://schema.org/text": "48: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo50.ttl": {
         "types": [
@@ -6560,6 +7559,20 @@
     "https://jaccident3.solidcommunity.net/public/posts/text84.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text84",
+        "https://schema.org/text": "84: This is the test caption for text posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo10.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
         ],
         "searchPath": [
@@ -6714,24 +7727,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text68.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text68",
+        "https://schema.org/text": "68: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text16.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text16",
+        "https://schema.org/text": "16: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article21.ttl": {
         "types": [
@@ -6810,6 +7829,17 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo2.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/posts/post64.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -6824,24 +7854,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text89.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text89",
+        "https://schema.org/text": "89: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text17.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text17",
+        "https://schema.org/text": "17: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post37.ttl": {
         "types": [
@@ -6868,13 +7904,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text85.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text85",
+        "https://schema.org/text": "85: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post77.ttl": {
         "types": [
@@ -6956,24 +7995,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text25.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text25",
+        "https://schema.org/text": "25: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text1.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text1",
+        "https://schema.org/text": "1: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post8.ttl": {
         "types": [
@@ -6989,13 +8034,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text99.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text99",
+        "https://schema.org/text": "99: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post19.ttl": {
         "types": [
@@ -7011,24 +8059,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text54.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text54",
+        "https://schema.org/text": "54: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text39.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text39",
+        "https://schema.org/text": "39: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo9.ttl": {
         "types": [
@@ -7088,13 +8142,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text64.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text64",
+        "https://schema.org/text": "64: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post28.ttl": {
         "types": [
@@ -7143,13 +8200,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text15.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text15",
+        "https://schema.org/text": "15: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article85.ttl": {
         "types": [
@@ -7187,24 +8247,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text9.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text9",
+        "https://schema.org/text": "9: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text27.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text27",
+        "https://schema.org/text": "27: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo72.ttl": {
         "types": [
@@ -7220,24 +8286,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text60.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text60",
+        "https://schema.org/text": "60: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text87.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text87",
+        "https://schema.org/text": "87: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo3.ttl": {
         "types": [
@@ -7308,13 +8380,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text29.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text29",
+        "https://schema.org/text": "29: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo100.ttl": {
         "types": [
@@ -7330,35 +8405,44 @@
     "https://jaccident3.solidcommunity.net/public/posts/text90.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text90",
+        "https://schema.org/text": "90: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text23.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text23",
+        "https://schema.org/text": "23: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text73.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text73",
+        "https://schema.org/text": "73: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article81.ttl": {
         "types": [
@@ -7385,35 +8469,44 @@
     "https://jaccident3.solidcommunity.net/public/posts/text96.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text96",
+        "https://schema.org/text": "96: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text83.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text83",
+        "https://schema.org/text": "83: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text62.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text62",
+        "https://schema.org/text": "62: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo60.ttl": {
         "types": [
@@ -7495,13 +8588,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text88.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text88",
+        "https://schema.org/text": "88: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article45.ttl": {
         "types": [
@@ -7528,13 +8624,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text100.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text100",
+        "https://schema.org/text": "100: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article17.ttl": {
         "types": [
@@ -7594,13 +8693,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text30.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text30",
+        "https://schema.org/text": "30: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article18.ttl": {
         "types": [
@@ -7616,13 +8718,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text7.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text7",
+        "https://schema.org/text": "7: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post57.ttl": {
         "types": [
@@ -7638,13 +8743,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text47.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text47",
+        "https://schema.org/text": "47: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo85.ttl": {
         "types": [
@@ -7682,35 +8790,44 @@
     "https://jaccident3.solidcommunity.net/public/posts/text77.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text77",
+        "https://schema.org/text": "77: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text41.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text41",
+        "https://schema.org/text": "41: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text38.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text38",
+        "https://schema.org/text": "38: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo61.ttl": {
         "types": [
@@ -7724,6 +8841,17 @@
         ]
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo54.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo6.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -7770,13 +8898,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text92.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text92",
+        "https://schema.org/text": "92: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article55.ttl": {
         "types": [
@@ -7792,13 +8923,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text10.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text10",
+        "https://schema.org/text": "10: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article5.ttl": {
         "types": [
@@ -7847,13 +8981,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text3.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text3",
+        "https://schema.org/text": "3: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo6.ttl": {
         "types": [
@@ -7880,24 +9017,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text4.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text4",
+        "https://schema.org/text": "4: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text24.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text24",
+        "https://schema.org/text": "24: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo28.ttl": {
         "types": [
@@ -8023,13 +9166,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text57.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text57",
+        "https://schema.org/text": "57: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post55.ttl": {
         "types": [
@@ -8056,13 +9202,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text20.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text20",
+        "https://schema.org/text": "20: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post74.ttl": {
         "types": [
@@ -8078,46 +9227,58 @@
     "https://jaccident3.solidcommunity.net/public/posts/text45.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text45",
+        "https://schema.org/text": "45: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text32.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text32",
+        "https://schema.org/text": "32: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text18.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text18",
+        "https://schema.org/text": "18: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text6.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text6",
+        "https://schema.org/text": "6: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post72.ttl": {
         "types": [
@@ -8131,6 +9292,17 @@
         ]
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo77.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo5.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -8155,13 +9327,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text42.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text42",
+        "https://schema.org/text": "42: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article59.ttl": {
         "types": [
@@ -8177,13 +9352,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text98.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text98",
+        "https://schema.org/text": "98: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article97.ttl": {
         "types": [
@@ -8243,13 +9421,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text86.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text86",
+        "https://schema.org/text": "86: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post67.ttl": {
         "types": [
@@ -8284,7 +9465,7 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
-    "https://jaccident3.solidcommunity.net/public/posts/text14.ttl": {
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo8.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -8294,6 +9475,31 @@
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo4.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/text14.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text14",
+        "https://schema.org/text": "14: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo55.ttl": {
         "types": [
@@ -8309,24 +9515,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text46.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text46",
+        "https://schema.org/text": "46: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text59.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text59",
+        "https://schema.org/text": "59: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article91.ttl": {
         "types": [
@@ -8463,13 +9675,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text8.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text8",
+        "https://schema.org/text": "8: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article60.ttl": {
         "types": [
@@ -8529,6 +9744,20 @@
     "https://jaccident3.solidcommunity.net/public/posts/text22.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text22",
+        "https://schema.org/text": "22: This is the test caption for text posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article10.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
         ],
         "searchPath": [
@@ -8573,46 +9802,58 @@
     "https://jaccident3.solidcommunity.net/public/posts/text58.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text58",
+        "https://schema.org/text": "58: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text65.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text65",
+        "https://schema.org/text": "65: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text31.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text31",
+        "https://schema.org/text": "31: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text43.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text43",
+        "https://schema.org/text": "43: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo59.ttl": {
         "types": [
@@ -8782,35 +10023,44 @@
     "https://jaccident3.solidcommunity.net/public/posts/text5.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text5",
+        "https://schema.org/text": "5: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text19.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text19",
+        "https://schema.org/text": "19: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text74.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text74",
+        "https://schema.org/text": "74: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post53.ttl": {
         "types": [
@@ -8848,13 +10098,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text56.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text56",
+        "https://schema.org/text": "56: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo67.ttl": {
         "types": [
@@ -8895,13 +10148,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text82.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text82",
+        "https://schema.org/text": "82: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo48.ttl": {
         "types": [
@@ -8969,6 +10225,17 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo3.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
     "https://jaccident3.solidcommunity.net/public/posts/article12.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
@@ -8992,6 +10259,17 @@
         ]
     },
     "https://jaccident3.solidcommunity.net/public/posts/article2.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article6.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -9049,35 +10327,44 @@
     "https://jaccident3.solidcommunity.net/public/posts/text26.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text26",
+        "https://schema.org/text": "26: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text37.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text37",
+        "https://schema.org/text": "37: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text61.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text61",
+        "https://schema.org/text": "61: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post30.ttl": {
         "types": [
@@ -9093,24 +10380,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text81.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text81",
+        "https://schema.org/text": "81: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text95.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text95",
+        "https://schema.org/text": "95: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/post51.ttl": {
         "types": [
@@ -9137,24 +10430,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text12.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text12",
+        "https://schema.org/text": "12: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text11.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text11",
+        "https://schema.org/text": "11: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo86.ttl": {
         "types": [
@@ -9192,6 +10491,20 @@
     "https://jaccident3.solidcommunity.net/public/posts/text44.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text44",
+        "https://schema.org/text": "44: This is the test caption for text posts!"
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/combo30.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
         ],
         "searchPath": [
@@ -9200,7 +10513,7 @@
             "https://jaccident3.solidcommunity.net/public/posts/"
         ]
     },
-    "https://jaccident3.solidcommunity.net/public/posts/combo30.ttl": {
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article8.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -9291,24 +10604,30 @@
     "https://jaccident3.solidcommunity.net/public/posts/text69.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text69",
+        "https://schema.org/text": "69: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text72.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text72",
+        "https://schema.org/text": "72: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/article95.ttl": {
         "types": [
@@ -9333,6 +10652,28 @@
         ]
     },
     "https://jaccident3.solidcommunity.net/public/posts/post11.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_combo7.ttl": {
+        "types": [
+            "http://www.w3.org/ns/ldp#Resource",
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+        ],
+        "searchPath": [
+            "https://jaccident3.solidcommunity.net/",
+            "https://jaccident3.solidcommunity.net/public/",
+            "https://jaccident3.solidcommunity.net/public/posts/"
+        ]
+    },
+    "https://jaccident3.solidcommunity.net/public/posts/typeless_article1.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
             "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
@@ -9368,13 +10709,16 @@
     "https://jaccident3.solidcommunity.net/public/posts/text91.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text91",
+        "https://schema.org/text": "91: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/combo75.ttl": {
         "types": [
@@ -9390,46 +10734,58 @@
     "https://jaccident3.solidcommunity.net/public/posts/text63.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text63",
+        "https://schema.org/text": "63: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text13.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text13",
+        "https://schema.org/text": "13: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text51.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text51",
+        "https://schema.org/text": "51: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/text55.ttl": {
         "types": [
             "http://www.w3.org/ns/ldp#Resource",
-            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource"
+            "http://www.w3.org/ns/iana/media-types/text/turtle#Resource",
+            "https://schema.org/TextObject"
         ],
         "searchPath": [
             "https://jaccident3.solidcommunity.net/",
             "https://jaccident3.solidcommunity.net/public/",
             "https://jaccident3.solidcommunity.net/public/posts/"
-        ]
+        ],
+        "thingURL": "https://jaccident3.solidcommunity.net/public/posts#text55",
+        "https://schema.org/text": "55: This is the test caption for text posts!"
     },
     "https://jaccident3.solidcommunity.net/public/posts/data/47.jpg": {
         "types": [

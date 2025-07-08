@@ -51,7 +51,7 @@ constMetric = Metric("Test Metric", constEval)
 
 
 
-def getLabelledSimilarity(labelledDict, mainKey, mainValue):
+def getLabelledSimilarity(labelledDict, mainKey, mainValue, valsDict):
     metricDict = dict()
 
     # -------- TEST METRIC --------
@@ -136,6 +136,28 @@ def getLabelledSimilarity(labelledDict, mainKey, mainValue):
     }
     metricDict = setMetric(metricDict, falloffFileMetric, 2, exponentialFalloffDict)
 
+    # ------ Relation Type Similarity Metric -------
+    def relationTypeMeasure(item, optionalWeightings):
+        #mainValue is the val we are comparing to
+        similarTypes = 0
+        if "relatedTo" in mainValue.keys() and "relatedTo" in item.keys():
+            mainRelatesList = mainValue["relatedTo"]
+            mainRelatedTypes = []
+            for relUrl in mainRelatesList:
+                if "types" in valsDict[relUrl]:
+                    mainRelatedTypes += valsDict[relUrl]["types"]
+            itemRelatesList = item["relatedTo"]
+            itemRelatedTypes = []
+            for relUrl in itemRelatesList:
+                if "types" in valsDict[relUrl]:
+                    itemRelatedTypes += valsDict[relUrl]["types"]
+            for relatedType in itemRelatedTypes:
+                if relatedType in mainRelatedTypes:
+                    similarTypes += 1
+        return(similarTypes)
+
+    relationTypeMetric = Metric("Relation Type Similarity Metric", relationTypeMeasure)
+    metricDict = setMetric(metricDict, relationTypeMetric, 4, None)
     # Generating metric interfaces
 
     interfacesDict = dict()

@@ -9,12 +9,6 @@
 export default function groupWithTypes(frontier, obj) {
     for (let i = 0 ; i < frontier.length ; i++) {
         if (obj.hasOwnProperty(frontier[i].subject)) {
-            /*
-            console.log(frontier[i].subject)
-            console.log(frontier[i].type)
-            console.log(obj[frontier[i].subject])
-            console.log(obj[frontier[i].subject].types.concat([frontier[i].type]))
-            */
 
             obj[frontier[i].subject].types = obj[frontier[i].subject].types.concat([frontier[i].type])
         }
@@ -25,13 +19,8 @@ export default function groupWithTypes(frontier, obj) {
                 types: [frontier[i].type],
                 searchPath: frontier[i].searchPath
             }
-            /*
-            console.log(frontier[i].subject)
-            console.log(obj[frontier[i].subject])
-            */
         }
     }
-    console.log("melon :)")
-    console.log(obj)
     return(obj)
 }
+

@@ -59,7 +59,7 @@ import Details from "./Details.js"
         async function fetchStorage() {
         let newStore = await userNode.storage
         .then( newStorage => {console.log("new storage: ")
-            setStorageLoc(`${newStorage}`) // This is a slighlt ridiculous way of doing this.
+            setStorageLoc(`${newStorage}`)
             }
         )
     }
@@ -67,11 +67,6 @@ import Details from "./Details.js"
     }
     //, [userNode]
     )
-
-    /*(async document => {
-        for await (const subject of document.subjects)
-          console.log(`${subject}`);
-      })(ruben); */
 
       //<Details storageURL="https://jaccident.solidcommunity.net/private/"/>
       //<Details storageURL={storageLoc}/>

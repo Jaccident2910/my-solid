@@ -25,18 +25,7 @@ function Details(props) {
           "preferredObjectPronoun": "http://www.w3.org/ns/solid/terms#preferredObjectPronoun"
         }
       };
-      /*
-      // The query engine and its source
-      const queryEngine = new ComunicaEngine(storageURL);
-      // The object that can create new paths
-      const path = new PathFactory({ context, queryEngine });
-      const pod = path.create({ subject: namedNode(storageURL) });
-
-      (async document => {
-        for await (const subject of document.subjects)
-          console.log(`${subject}`);
-      })(pod);
-      */
+ 
       // Jank to get an authenticated comunica session.
       const myEngine = new QueryEngine();
       const queryEngine = new ComunicaEngine(storageURL,{ engine: myEngine })

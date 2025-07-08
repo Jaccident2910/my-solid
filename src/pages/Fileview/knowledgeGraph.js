@@ -89,8 +89,8 @@ function augmentPosts(postObj, turtleFile) {
                     if (key != "https://schema.org/contentURL" && key != "https://schema.org/image") {
                         if(key == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" || key == "https://www.w3.org/1999/02/22-rdf-syntax-ns#type")
                             {
-                                postObj[processedTurtleObj["https://schema.org/contentURL"]].types = postObj[processedTurtleObj["https://schema.org/contentURL"]].types.concat([value])
-                                postObj[processedTurtleObj["https://schema.org/image"]].types = postObj[processedTurtleObj["https://schema.org/image"]].types.concat([value])   
+                                postObj[processedTurtleObj["https://schema.org/contentURL"]].types = postObj[processedTurtleObj["https://schema.org/contentURL"]].types.concat(value)
+                                postObj[processedTurtleObj["https://schema.org/image"]].types = postObj[processedTurtleObj["https://schema.org/image"]].types.concat(value)   
                             }
                         else {
                             postObj[processedTurtleObj["https://schema.org/contentURL"]][key] = value
@@ -107,8 +107,8 @@ function augmentPosts(postObj, turtleFile) {
                     postObj[processedTurtleObj["https://schema.org/image"]].relatedTo = []
                 }
 
-                postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo = postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo.concat([processedTurtleObj["https://schema.org/image"]])
-                postObj[processedTurtleObj["https://schema.org/image"]].relatedTo = postObj[processedTurtleObj["https://schema.org/image"]].relatedTo.concat([processedTurtleObj["https://schema.org/contentURL"]])
+                postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo = postObj[processedTurtleObj["https://schema.org/contentURL"]].relatedTo.concat(processedTurtleObj["https://schema.org/image"])
+                postObj[processedTurtleObj["https://schema.org/image"]].relatedTo = postObj[processedTurtleObj["https://schema.org/image"]].relatedTo.concat(processedTurtleObj["https://schema.org/contentURL"])
             }
         }
     }
@@ -123,7 +123,7 @@ function augmentPosts(postObj, turtleFile) {
                 if (key != "https://schema.org/contentURL") {
                     if(key == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" || key == "https://www.w3.org/1999/02/22-rdf-syntax-ns#type")
                         {
-                            postObj[processedTurtleObj["https://schema.org/contentURL"]].types = postObj[processedTurtleObj["https://schema.org/contentURL"]].types.concat([value])   
+                            postObj[processedTurtleObj["https://schema.org/contentURL"]].types = postObj[processedTurtleObj["https://schema.org/contentURL"]].types.concat(value)   
                         }
                     else {
                         postObj[processedTurtleObj["https://schema.org/contentURL"]][key] = value
@@ -131,6 +131,33 @@ function augmentPosts(postObj, turtleFile) {
                 }    
             }
 
+        }
+    }
+
+    else {
+        // oh no I have no way of getting the URL of the turtle file being read.
+        // This is somewhat problematic
+
+        // IT'S IN THE TURTLE FILE INFO!!!
+        if (Object.hasOwn(turtleFile, "internal_resourceInfo")) {
+            if (Object.hasOwn(turtleFile.internal_resourceInfo, "sourceIri")) {
+                //postObj[turtleFile.internal_resourceInfo.sourceIri].types = .concat(processedTurtleObj["http://www.w3.org/1999/02/22-rdf-syntax-ns#type"])
+
+                // If there is no content URL or image, annotate the ttl file with the info in it.
+                for (const [key, value] of Object.entries(processedTurtleObj)) {
+                    if (key != "https://schema.org/contentURL") {
+                        if(key == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" || key == "https://www.w3.org/1999/02/22-rdf-syntax-ns#type")
+                            {   
+                                postObj[turtleFile.internal_resourceInfo.sourceIri].types = postObj[turtleFile.internal_resourceInfo.sourceIri].types.concat(value)   
+                            }
+                        else {
+                            postObj[turtleFile.internal_resourceInfo.sourceIri][key] = value
+                        }
+                    }    
+                }
+
+
+            }
         }
     }
 
@@ -149,14 +176,9 @@ export function turtleFileConsumer(inputItems, setOutputItems, session) {
         if(turtleTypeCheck(value.types)) {
             // read turtle file
             getContentsOfTurtleFile(key, session.fetch).then((fileContents) => {
-                //console.log("WAHOWZAH")
-                //console.log(fileContents)
                 augmentPosts(outputObj, fileContents)
             })
         }
-        /* else {
-            
-        } */
     }
 
     setOutputItems(outputObj)

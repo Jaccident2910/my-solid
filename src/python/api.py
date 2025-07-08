@@ -27,5 +27,5 @@ async def create_item(item: Item):
     print(item)
     print("\n\n\n\n\n")
     convertedDict = convertToDict(item)
-    interface(convertedDict)
-    return {"result": "Item received. Nice one, mate :)"}
+    result = interface(convertedDict)
+    return {"result": result}

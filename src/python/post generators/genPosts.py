@@ -8,6 +8,15 @@ def gen_combo(comboNum, captionString):
   a schema:CreativeWork.
 """)
 
+def gen_typeless_combo(comboNum, captionString):
+    return(f"""@prefix schema: <https://schema.org/>.
+
+<https://jaccident3.solidcommunity.net/public/posts#typelessCombo{comboNum}>
+  schema:caption "{comboNum}: {captionString}";
+  schema:image <https://jaccident3.solidcommunity.net/public/images/typeless_combo{comboNum}.jpg>;
+  schema:contentURL <https://jaccident3.solidcommunity.net/public/articles/typeless_combo{comboNum}.txt>.
+""")
+
 def gen_article(articleNum, description):
     return(f"""@prefix schema: <https://schema.org/>.
 
@@ -17,6 +26,15 @@ def gen_article(articleNum, description):
   a schema:BlogPosting.
 """)
 
+def gen_typeless_article(articleNum, description):
+    return(f"""@prefix schema: <https://schema.org/>.
+
+<https://jaccident3.solidcommunity.net/public/posts#typelessArticle{articleNum}>
+  schema:description "{articleNum}: {description}";
+  schema:contentURL <https://jaccident3.solidcommunity.net/public/articles/typeless_article{articleNum}.txt>.
+""")
+
+
 def gen_textpost(postNum, text):
     return(f"""@prefix schema: <https://schema.org/>.
 
@@ -25,10 +43,7 @@ def gen_textpost(postNum, text):
   a schema:TextObject.
 """)
 
-numOfPosts = 100
-for i in range(1, numOfPosts+1):
-    fileName = f"combo{i}.txt"
-    fileContents = f"""This is a file of number {i} that is the text component of the combo for that number. Wahoo!!
+oldfileContents = f"""This is a file of number i that is the text component of the combo for that number. Wahoo!!
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac nisi in leo sollicitudin pretium varius nec nisi. Fusce et bibendum dui, ut auctor nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis quis laoreet mauris, eu condimentum magna. Morbi aliquet nec mauris vitae interdum. Mauris tortor dui, tincidunt sit amet tempor quis, consequat eu sem. Pellentesque convallis sapien id eros vestibulum accumsan sit amet ut nisi. Integer vitae mi eget felis commodo bibendum quis a ipsum. Cras nec urna odio.
@@ -41,6 +56,11 @@ Nulla eu lacus tempor, lobortis nulla quis, consectetur sapien. Fusce dapibus pu
 
 Fusce posuere ex velit, nec scelerisque diam mollis efficitur. Suspendisse et bibendum urna. Aenean volutpat tellus a nunc rhoncus pretium. Curabitur sodales interdum odio vitae mattis. Nulla eu erat purus. Nulla interdum viverra eros vitae congue. Etiam egestas, quam eget suscipit faucibus, turpis lectus iaculis orci, volutpat lacinia tortor sem at arcu. In commodo, erat nec sagittis lobortis, tellus nisi accumsan magna, in ullamcorper purus mauris vel arcu. Integer sed nulla id ex tincidunt blandit id vel libero. Etiam id ex faucibus, bibendum mi quis, suscipit nibh. Vivamus imperdiet, lectus a mollis pellentesque, erat neque egestas dolor, ac venenatis ipsum nibh a sapien. Integer aliquet sem in tellus lacinia, sit amet cursus nibh pretium. 
     """
+
+numOfPosts = 10
+for i in range(1, numOfPosts+1):
+    fileName = f"typeless_combo{i}.ttl"
+    fileContents = gen_typeless_combo(i, "This is a caption for a article post with no type annotations!")
     theFile = open(fileName, 'w+')
     theFile.write(fileContents)
     theFile.close()

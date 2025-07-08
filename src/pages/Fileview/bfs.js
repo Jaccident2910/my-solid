@@ -35,18 +35,6 @@ export default function bfs(frontier, validityCheck, getNodeVal ,searchFunc, max
     }
 
 
-
-
-    /*    
-    for (let i = 0 ; i < frontier.length && i < maxIters ; i++) {
-        console.log("searching item: " + i)
-        console.log(frontier[i])
-        if(validityCheck(frontier[i])) {
-            searchFunc(frontier[i])
-        }
-    }
-        */
-
     setResult(frontier)
     //setBfsDone(true)
 

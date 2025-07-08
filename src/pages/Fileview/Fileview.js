@@ -97,7 +97,7 @@ function useStorageGetter(webID, storageSetter) {
       await userNode.storage
         .then(newStorage => {
           console.log("new storage: " + newStorage)
-          storageSetter(`${newStorage}`) // This is a slighlt ridiculous way of doing this.
+          storageSetter(`${newStorage}`)
         }
         )
     }
@@ -150,24 +150,14 @@ function useBFS(session, frontier, setFrontier, setBfsDone) {
   useEffect(() => {
     console.log("Doing BFS with frontier: ")
     console.log(frontier)
-    /*
-    let newFrontier = {...initFrontier}
-    let setNewFrontier = (newerFrontier) => {
-      newFrontier = newerFrontier
-      console.log("nectarine!")
-      console.log(newFrontier)
-    }
-      */
     
     function nodeExpansion(searchNode) {
       console.log("Searching on " + searchNode.subject)
-      console.log("phlegm")
       console.log(searchNode)
       detailsFunc(getNodeVal(searchNode), session, frontier, setFrontier, searchNode.searchPath)
     }
     
     bfs(frontier, containerCheck, getNodeVal, nodeExpansion, 10000, setFrontier, setBfsDone)
-    console.log("meh")
     console.log(frontier)
     //setFrontier(newFrontier)
 
@@ -211,6 +201,30 @@ function useAugmentedPosts(augmentedPosts, setReady, turtlesUsed) {
       setReady(true)
     }
   }, [augmentedPosts])
+}
+
+function FileDisplay({contents}) {
+
+
+  // Attempt 2
+
+  let displayResult = []
+  displayResult.push(<tr>
+      <th>URI</th>
+      <th>Label</th>
+    </tr>)
+    console.log(contents)
+  if(typeof(contents) != "undefined") {
+    for (let key in contents) {
+      console.log("key: ", key)
+      displayResult.push(<tr>
+        <td>{key}</td>
+        <td>{contents[key].label}</td>
+      </tr>)
+    }
+  }
+
+  return(displayResult)
 }
 
 export default function Fileview() {
@@ -260,6 +274,10 @@ export default function Fileview() {
   //state for API readiness:
   const [apiReady, setApiReady] = useState(false)
 
+  //state for API result
+
+  const [apiResult, setApiResult] = useState({})
+
 console.log("Rendering Fileview again.")
   // So I have kind of been using useEffect wrong. I should try to build my own custom hooks to handle the profile and the detaisl
 
@@ -268,11 +286,6 @@ console.log("Rendering Fileview again.")
   //useFrontierGetter(session, storageLoc, setFrontier , [])
   useFrontierGetter(session, storageLoc, setInitFrontier, [])
 
-  /*
-  console.log(frontier)
-  console.log("wahoo!!")
-  console.log(frontier)
-  */
   // We may need some way of tracking when each hook is done with its task fully - currently each one runs each time
   // the previous hook updates anything.
 
@@ -292,7 +305,7 @@ console.log("Rendering Fileview again.")
   const [sendToAPI, setSendToAPI] = useState("")
 
   
-  useAPI(augmentedPosts, apiReady, setSendToAPI)
+  useAPI(augmentedPosts, apiReady, setSendToAPI, setApiResult)
   //useAPI(augmentedPosts, apiReady, setApiReady)
 
   console.log("sendToAPI: ", sendToAPI)
@@ -328,7 +341,9 @@ console.log("Rendering Fileview again.")
                   //console.log(typeof(sendToAPI))
                   sendToAPI()
                 }}
-              > WOOO</button>
+              > Send graph data to API</button>
+
+              <FileDisplay contents={apiResult.result}/>
             </div>
           </CombinedDataProvider>
         ) : (

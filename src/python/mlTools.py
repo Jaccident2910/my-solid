@@ -130,7 +130,7 @@ def decisionTreesInterface(valsDict):
     else: 
         inputDict = dict()
 
-    mainOption = input("(t)rain the decision tree or (c)lassify new items?")
+    mainOption = input("(t)rain the decision tree, (u)pdate the decision tree, or (c)lassify new items?")
     if mainOption == "t":
         classifiedDict = dict()
         for key in valsDict.keys():
@@ -139,6 +139,8 @@ def decisionTreesInterface(valsDict):
             else:
                 newClass = input("What should be the classification of " + key + "? classification: ")
                 classifiedDict[key] = newClass
+
+       
 
         outputFile = open(outputName, "w+")
         outputFile.write(json.dumps(classifiedDict, indent=4))
@@ -154,7 +156,32 @@ def decisionTreesInterface(valsDict):
         jsonFile = open(listCategoryName, "w+")
         jsonFile.write(json.dumps(categoryDict, indent=4))
 
+    elif mainOption == "u":
+        # I need some way to update the dict by only touching the training set
+        classifiedDict = dict()
+        # only take in inputs from the classified set.
+        for key in valsDict.keys():
+            if key in inputDict:
+                classifiedDict[key] = inputDict[key]
 
+        cutValsDict = dict()
+        for key in valsDict.keys():
+            if key in inputDict:
+                cutValsDict[key] = valsDict[key]
+
+        outputFile = open(outputName, "w+")
+        outputFile.write(json.dumps(classifiedDict, indent=4))
+
+        (preparedValsDict, mainTypes, mainSearchPaths) = prepareDataForDT(cutValsDict)
+        (decisionTree, classTags) = decisionTreeCreator(preparedValsDict, classifiedDict)
+        treeFile = open(treeFileName, "wb+")
+        pickle.dump(decisionTree, treeFile)
+        categoryDict = dict()
+        categoryDict["types"] = mainTypes
+        categoryDict["searchPaths"] = mainSearchPaths
+        categoryDict["classTags"] = classTags
+        jsonFile = open(listCategoryName, "w+")
+        jsonFile.write(json.dumps(categoryDict, indent=4))
 
     elif mainOption == "c":
         unclassifiedDict = dict()
@@ -218,9 +245,9 @@ def caseBasedReasoningInterface(valsDict):
     cbrOutputFile = open(cbrOutputName, "a+")
     for key, value in unlabelledDict.items():
         print("evaluating similarity to " + key)
-        labelledSimilarity = getLabelledSimilarity(labelledDict, key, value)
+        labelledSimilarity = getLabelledSimilarity(labelledDict, key, value, valsDict)
         similarityDict[key] = labelledSimilarity
-        q = 10
+        q = 11
         qNearestLabels = getQNearestLabels(key, q, similarityDict, labelledDict)
         winningLabel = linearConsensusFunction(qNearestLabels)
         print("label for", key)
@@ -239,10 +266,11 @@ def caseBasedReasoningInterface(valsDict):
 
 
 def interface(valsDict):
-    interfaceOption = ""
+    interfaceOption = "n"
     while(not (interfaceOption == "y" or interfaceOption == "n")):
         interfaceOption = input("Would you like to write this input to a file? y/n")
     if interfaceOption == "y":
         jsonFile = open(dumpedInputName, "w+")
         jsonFile.write(json.dumps(valsDict, indent=4))
-    newLabelledDict = caseBasedReasoningInterface(valsDict)
+    newLabelledDict = decisionTreesInterface(valsDict)
+    return(newLabelledDict)

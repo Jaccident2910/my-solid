@@ -18,19 +18,8 @@ export default function detailsFunc(rootURL, session, frontier, setFrontier, nod
         "preferredObjectPronoun": "http://www.w3.org/ns/solid/terms#preferredObjectPronoun"
       }
     };
-    /*
-    // The query engine and its source
-    const queryEngine = new ComunicaEngine(rootURL);
-    // The object that can create new paths
-    const path = new PathFactory({ context, queryEngine });
-    const pod = path.create({ subject: namedNode(rootURL) });
-
-    (async document => {
-      for await (const subject of document.subjects)
-        console.log(`${subject}`);
-    })(pod);
-    */
-    // Jank to get an authenticated comunica session.
+   
+    // get an authenticated comunica session.
     const myEngine = new QueryEngine();
     const queryEngine = new ComunicaEngine(rootURL,{ engine: myEngine })
     const path = new PathFactory({ context, queryEngine });
@@ -39,10 +28,6 @@ export default function detailsFunc(rootURL, session, frontier, setFrontier, nod
     (async document => {
       console.log("doing details search on: ")
       console.log(rootURL)
-      /*or await (const sub of document.subjects) {
-        console.log(`${sub}`)
-        console.log(await document.subjects.sparql)
-      } */
       const bindingsStream = await myEngine.queryBindings(await `SELECT ?subject ?type WHERE {
 ?subject rdf:type ?type.
 }`, {
@@ -51,9 +36,7 @@ export default function detailsFunc(rootURL, session, frontier, setFrontier, nod
         // Pass your authenticated session
         '@comunica/actor-http-inrupt-solid-client-authn:session': session,
       })
-        //console.log("pineapple")
         const bindings = await bindingsStream.toArray();
-        //console.log(bindings)
         let subjectsList = []
         for(let entNum = 0; entNum < bindings.length ; entNum++) {
           const actualEntries = bindings[entNum].entries._root.entries
@@ -73,22 +56,8 @@ export default function detailsFunc(rootURL, session, frontier, setFrontier, nod
           entryObj.searchPath = nodePathArr.concat(rootURL)
           subjectsList.push(entryObj)
         }
-        //console.log(bindings[0].get('s').value);
-        //console.log(bindings[0].get('s').termType);#
-
-        /*
-        console.log(subjectsList)
-        console.log("applying setterFunc")
-        */
         
         function updateFrontier (frontier, listOfSubjects) {
-          // TODO: remove duplicates from frontier!
-          
-          /*
-          console.log("kazoo")
-          console.log(frontier)
-          console.log(listOfSubjects)#
-          */
           // removes current node from BFS frontier
           let newList = []
           for (let i = 0 ; i < frontier.length ; i++) {
@@ -100,7 +69,6 @@ export default function detailsFunc(rootURL, session, frontier, setFrontier, nod
               for (let j = 0 ; j < newList.length ; j ++){
                 if ((newList[j].subject == frontier[i].subject && newList[j].type == frontier[i].type)) {
                   duplicateFound = true
-                  //console.log("duplicate found: " + frontier[i][0][1] + " of type " + frontier[i][1][1] +" at frontier index " + i + " and newList index " + j)
                 }
                 }
               
@@ -125,8 +93,7 @@ export default function detailsFunc(rootURL, session, frontier, setFrontier, nod
               }
             } 
           }
-          console.log("apple")
-          console.log(newList)
+          console.log("new List: ", newList)
           return(newList)
         }
         

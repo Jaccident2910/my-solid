@@ -29,7 +29,7 @@ function convertObjToJSON(valuesObj) {
 }
 
 
-export function useAPI(valuesObj, readyFlag, setAPIFunction) {
+export function useAPI(valuesObj, readyFlag, setAPIFunction, setApiResult) {
 
 
     const [returnedData, setReturnedData] = useState();
@@ -56,7 +56,7 @@ export function useAPI(valuesObj, readyFlag, setAPIFunction) {
                 .then((data) => {
                     console.log("recieved value from API: ")
                     console.log(data)
-                    setReturnedData(data)
+                    setApiResult(data)
                 });
             //setApiReady(false)
         }
@@ -66,6 +66,6 @@ export function useAPI(valuesObj, readyFlag, setAPIFunction) {
   };
 
   setAPIFunction(() => doAPIStuff)
-    }, [readyFlag,valuesObj])
+    }, [readyFlag,valuesObj, setApiResult])
 
 }

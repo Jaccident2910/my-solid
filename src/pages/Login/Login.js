@@ -28,22 +28,12 @@ function Login() {
   const [oidcIssuer, setOidcIssuer] = useState("");
   const [redirectUrl, setRedirectUrl] = useState("");
   const [profile, renderProfile] = useState("");
-  //const { thing, error } = useDataset("http://jaccident.solidcommunity.net/profile/");
-  
-  /*
-  const getThing = async () => { await getSolidDataset(
-    "https://jaccident.solidcommunity.net/profile", 
-    { fetch: fetch }  // fetch function from authenticated session
-  );}
-  */
   
 
   
     const handleChange = (event) => {
       setRedirectUrl(useLocation)
       setOidcIssuer(event.target.value);
-      console.log(oidcIssuer)
-      console.log(window.location.href)
     };
   
     /*
