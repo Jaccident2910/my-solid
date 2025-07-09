@@ -272,5 +272,5 @@ def interface(valsDict):
     if interfaceOption == "y":
         jsonFile = open(dumpedInputName, "w+")
         jsonFile.write(json.dumps(valsDict, indent=4))
-    newLabelledDict = decisionTreesInterface(valsDict)
+    newLabelledDict = caseBasedReasoningInterface(valsDict)
     return(newLabelledDict)

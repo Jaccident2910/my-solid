@@ -82,7 +82,7 @@ def getLabelledSimilarity(labelledDict, mainKey, mainValue, valsDict):
                 commonTypeCount += 1
         return(commonTypeCount)
     typeMetric = Metric("Common Type Metric", typeMeasure)
-    metricDict = setMetric(metricDict, typeMetric, 1, None)
+    metricDict = setMetric(metricDict, typeMetric, 2, None)
 
     # -------------------------------------------- 
     # NEXT METRIC
