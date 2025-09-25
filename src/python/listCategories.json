@@ -27,6 +27,12 @@
         "https://jaccident3.solidcommunity.net/public/posts/data/",
         "https://jaccident3.solidcommunity.net/public/posts/data/images/"
     ],
+    "relTypes": [
+        "http://www.w3.org/ns/ldp#Resource",
+        "http://www.w3.org/ns/iana/media-types/text/plain#Resource",
+        "https://schema.org/CreativeWork",
+        "http://www.w3.org/ns/iana/media-types/image/jpeg#Resource"
+    ],
     "classTags": {
         "0": "config",
         "1": "pdf",

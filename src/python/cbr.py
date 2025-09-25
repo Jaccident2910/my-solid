@@ -95,7 +95,7 @@ def getLabelledSimilarity(labelledDict, mainKey, mainValue, valsDict):
                 commonLocationCount += 1
         return(commonLocationCount)
     linearFileMetric = Metric("Linear File Metric", linearFileMeasure)
-    metricDict = setMetric(metricDict, linearFileMetric, 1, None)
+    metricDict = setMetric(metricDict, linearFileMetric, 3, None)
     # --------------------------------------------
     # --------- FALLOFF LOCATION METRIC ----------
     def falloffFileMeasure(item, optionalWeightings):
@@ -118,7 +118,7 @@ def getLabelledSimilarity(labelledDict, mainKey, mainValue, valsDict):
         itemVal = (baseAmount + baseFactor * (commonLocationCount))**(exponentAmount + exponentFactor* (commonLocationCount))
         baselineVal = (baseAmount + baseFactor * (baselineDepth))**(exponentAmount + exponentFactor* (baselineDepth))
         return(itemVal/baselineVal)
-    falloffFileMetric = Metric("Linear File Metric", falloffFileMeasure)
+    falloffFileMetric = Metric("Falloff File Metric", falloffFileMeasure)
     quadraticFalloffDict = {
         "exponentAmount": 2,
         "exponentFactor": 0,
@@ -154,10 +154,24 @@ def getLabelledSimilarity(labelledDict, mainKey, mainValue, valsDict):
             for relatedType in itemRelatedTypes:
                 if relatedType in mainRelatedTypes:
                     similarTypes += 1
+                else:
+                    similarTypes -=1
+        # adding negativity to non-similar types
+        elif "relatedTo" in item.keys():
+            itemRelatesList = item["relatedTo"]
+            itemRelatedTypes = []
+            for relUrl in itemRelatesList:
+                if "types" in valsDict[relUrl]:
+                    itemRelatedTypes += valsDict[relUrl]["types"]
+            for relatedType in itemRelatedTypes:
+                #by definition mainValue not related to anything
+                similarTypes -=1
+
         return(similarTypes)
 
     relationTypeMetric = Metric("Relation Type Similarity Metric", relationTypeMeasure)
     metricDict = setMetric(metricDict, relationTypeMetric, 4, None)
+    # ----------------------------------------------
     # Generating metric interfaces
 
     interfacesDict = dict()
@@ -238,3 +252,4 @@ def linearConsensusFunction(annotatedDict):
             winnerLabel = key1
             winnerScore  = value1
     return(winnerLabel)
+

@@ -96,13 +96,6 @@ export default function detailsFunc(rootURL, session, frontier, setFrontier, nod
           console.log("new List: ", newList)
           return(newList)
         }
-        
-        /*
-        let freshFrontier = updateFrontier(frontier, subjectsList)
-        console.log("mango setting frontier")
-        console.log(freshFrontier)
-        setFrontier(freshFrontier)
-        */
 
         setFrontier((frontier) => {
           console.log("updating frontier: ")

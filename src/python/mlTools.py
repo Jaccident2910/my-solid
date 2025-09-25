@@ -73,6 +73,21 @@ def typeCollate(valsDict):
     print(collatedTypes)
     return(collatedTypes)
 
+def relTypeCollate(valsDict):
+    collatedTypes = []
+    for key, value in valsDict.items():
+        if "relatedTo" in value:
+            relVals = value["relatedTo"]
+            for relatedItem in relVals:
+                if relatedItem in valsDict:
+                    valTypes = valsDict[relatedItem]["types"]
+                    for theType in valTypes:
+                        if not (theType in collatedTypes):
+                            collatedTypes.append(theType)
+    #print("collated types: ")
+    #print(collatedTypes)
+    return(collatedTypes)
+
 def searchPathCollate(valsDict):
     collatedSearchPaths = []
     for key, value in valsDict.items():
@@ -84,7 +99,7 @@ def searchPathCollate(valsDict):
     print(collatedSearchPaths)
     return(collatedSearchPaths)
 
-def getDataDict(item, collatedTypes, collatedSearchPaths):
+def getDataDict(item, collatedTypes, collatedSearchPaths, collatedRelatedTypes, valsDict):
     # This will need to change as we add more data
     preparedItemDict = dict()
     for key1, value1 in item.items():
@@ -100,23 +115,33 @@ def getDataDict(item, collatedTypes, collatedSearchPaths):
                     preparedItemDict[thePath] = 1
                 else:
                     preparedItemDict[thePath] = -1
-        # There should be other ways of converting the given information into something useful
-        # TODO: file extension analysis.
+    if "relatedTo" in item:
+        for theRelType in collatedRelatedTypes:
+            for relItem in value1:
+                if theRelType in valsDict[relItem]["types"]:
+                    preparedItemDict[theRelType] = 1
+                else:
+                    if preparedItemDict[theRelType] != 1:
+                        preparedItemDict[theRelType] = -1
+    else:
+        for theRelType in collatedRelatedTypes:
+            preparedItemDict[theRelType] = -1
     return(preparedItemDict)
 
 def prepareDataForDT(valsDict):
     collatedTypes = typeCollate(valsDict)
     collatedSearchPaths = searchPathCollate(valsDict)
+    collatedRelatedTypes = relTypeCollate(valsDict)
     preparedDataDict = dict()
     for key, value in valsDict.items():
-        preparedItemDict = getDataDict(value, collatedTypes, collatedSearchPaths)
+        preparedItemDict = getDataDict(value, collatedTypes, collatedSearchPaths, collatedRelatedTypes, valsDict)
         preparedDataDict[key] = preparedItemDict
-    return(preparedDataDict, collatedTypes, collatedSearchPaths)#
+    return(preparedDataDict, collatedTypes, collatedSearchPaths, collatedRelatedTypes)
 
-def prepareDataForClassification(valsDict, collatedTypes, collatedSearchPaths):
+def prepareDataForClassification(valsDict, collatedTypes, collatedSearchPaths, collatedRelatedTypes):
     preparedDataDict = dict()
     for key, value in valsDict.items():
-        preparedItemDict = getDataDict(value, collatedTypes, collatedSearchPaths)
+        preparedItemDict = getDataDict(value, collatedTypes, collatedSearchPaths, collatedRelatedTypes, valsDict)
         preparedDataDict[key] = preparedItemDict
     return(preparedDataDict)
 
@@ -145,13 +170,14 @@ def decisionTreesInterface(valsDict):
         outputFile = open(outputName, "w+")
         outputFile.write(json.dumps(classifiedDict, indent=4))
 
-        (preparedValsDict, mainTypes, mainSearchPaths) = prepareDataForDT(valsDict)
+        (preparedValsDict, mainTypes, mainSearchPaths, mainRelTypes) = prepareDataForDT(valsDict)
         (decisionTree, classTags) = decisionTreeCreator(preparedValsDict, classifiedDict)
         treeFile = open(treeFileName, "wb+")
         pickle.dump(decisionTree, treeFile)
         categoryDict = dict()
         categoryDict["types"] = mainTypes
         categoryDict["searchPaths"] = mainSearchPaths
+        categoryDict["relTypes"] = mainRelTypes
         categoryDict["classTags"] = classTags
         jsonFile = open(listCategoryName, "w+")
         jsonFile.write(json.dumps(categoryDict, indent=4))
@@ -172,13 +198,14 @@ def decisionTreesInterface(valsDict):
         outputFile = open(outputName, "w+")
         outputFile.write(json.dumps(classifiedDict, indent=4))
 
-        (preparedValsDict, mainTypes, mainSearchPaths) = prepareDataForDT(cutValsDict)
+        (preparedValsDict, mainTypes, mainSearchPaths, mainRelTypes) = prepareDataForDT(cutValsDict)
         (decisionTree, classTags) = decisionTreeCreator(preparedValsDict, classifiedDict)
         treeFile = open(treeFileName, "wb+")
         pickle.dump(decisionTree, treeFile)
         categoryDict = dict()
         categoryDict["types"] = mainTypes
         categoryDict["searchPaths"] = mainSearchPaths
+        categoryDict["relTypes"] = mainRelTypes
         categoryDict["classTags"] = classTags
         jsonFile = open(listCategoryName, "w+")
         jsonFile.write(json.dumps(categoryDict, indent=4))
@@ -196,7 +223,7 @@ def decisionTreesInterface(valsDict):
         testOutputFile = open(testOutputName, "a+")
 
         classTags = categorisedElements["classTags"]
-        preparedDict = prepareDataForClassification(unclassifiedDict, categorisedElements["types"], categorisedElements["searchPaths"])
+        preparedDict = prepareDataForClassification(unclassifiedDict, categorisedElements["types"], categorisedElements["searchPaths"], categorisedElements["relTypes"])
         for key2, value2 in preparedDict.items():
             thisArray = []
             for key3, value3 in value2.items():
@@ -266,7 +293,7 @@ def caseBasedReasoningInterface(valsDict):
 
 
 def interface(valsDict):
-    interfaceOption = "n"
+    interfaceOption = ""
     while(not (interfaceOption == "y" or interfaceOption == "n")):
         interfaceOption = input("Would you like to write this input to a file? y/n")
     if interfaceOption == "y":
